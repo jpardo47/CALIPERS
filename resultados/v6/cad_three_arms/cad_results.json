@@ -1,0 +1,173 @@
+[
+  {
+    "auc_clean": 0.1428571428571429,
+    "auc_marked": 0.1428571428571429,
+    "auc_delta_clean_minus_marked": 0.0,
+    "delta_ci95_patient_bootstrap": [
+      0.0,
+      0.0
+    ],
+    "mean_abs_score_change": 0.002027875743806362,
+    "valid_bootstraps": 901,
+    "patients": 9,
+    "images": 9,
+    "shortcut_eradication_proven": false,
+    "seed": 11,
+    "arm": "raw",
+    "auc_inpaint": 0.1428571428571429,
+    "auc_swapped": 0.1428571428571429,
+    "mean_swap_score_change": 0.0004958179197274148
+  },
+  {
+    "auc_clean": 0.1428571428571429,
+    "auc_marked": 0.1428571428571429,
+    "auc_delta_clean_minus_marked": 0.0,
+    "delta_ci95_patient_bootstrap": [
+      0.0,
+      0.0
+    ],
+    "mean_abs_score_change": 0.0018765231361612678,
+    "valid_bootstraps": 901,
+    "patients": 9,
+    "images": 9,
+    "shortcut_eradication_proven": false,
+    "seed": 11,
+    "arm": "bbox",
+    "auc_inpaint": 0.1428571428571429,
+    "auc_swapped": 0.1428571428571429,
+    "mean_swap_score_change": 0.00045973394298925996
+  },
+  {
+    "auc_clean": 0.1428571428571429,
+    "auc_marked": 0.1428571428571429,
+    "auc_delta_clean_minus_marked": 0.0,
+    "delta_ci95_patient_bootstrap": [
+      0.0,
+      0.0
+    ],
+    "mean_abs_score_change": 0.00191600457765162,
+    "valid_bootstraps": 901,
+    "patients": 9,
+    "images": 9,
+    "shortcut_eradication_proven": false,
+    "seed": 11,
+    "arm": "inpaint",
+    "auc_inpaint": 0.1428571428571429,
+    "auc_swapped": 0.1428571428571429,
+    "mean_swap_score_change": 0.00047259859275072813
+  },
+  {
+    "auc_clean": 0.1428571428571429,
+    "auc_marked": 0.1428571428571429,
+    "auc_delta_clean_minus_marked": 0.0,
+    "delta_ci95_patient_bootstrap": [
+      0.0,
+      0.0
+    ],
+    "mean_abs_score_change": 0.0009760823450051248,
+    "valid_bootstraps": 898,
+    "patients": 9,
+    "images": 9,
+    "shortcut_eradication_proven": false,
+    "seed": 22,
+    "arm": "raw",
+    "auc_inpaint": 0.1428571428571429,
+    "auc_swapped": 0.1428571428571429,
+    "mean_swap_score_change": 0.000272684614174068
+  },
+  {
+    "auc_clean": 0.1428571428571429,
+    "auc_marked": 0.1428571428571429,
+    "auc_delta_clean_minus_marked": 0.0,
+    "delta_ci95_patient_bootstrap": [
+      0.0,
+      0.0
+    ],
+    "mean_abs_score_change": 0.0010232296772301197,
+    "valid_bootstraps": 898,
+    "patients": 9,
+    "images": 9,
+    "shortcut_eradication_proven": false,
+    "seed": 22,
+    "arm": "bbox",
+    "auc_inpaint": 0.1428571428571429,
+    "auc_swapped": 0.1428571428571429,
+    "mean_swap_score_change": 0.0002950727939605713
+  },
+  {
+    "auc_clean": 0.1428571428571429,
+    "auc_marked": 0.1428571428571429,
+    "auc_delta_clean_minus_marked": 0.0,
+    "delta_ci95_patient_bootstrap": [
+      0.0,
+      0.0
+    ],
+    "mean_abs_score_change": 0.0009834766387939453,
+    "valid_bootstraps": 898,
+    "patients": 9,
+    "images": 9,
+    "shortcut_eradication_proven": false,
+    "seed": 22,
+    "arm": "inpaint",
+    "auc_inpaint": 0.1428571428571429,
+    "auc_swapped": 0.1428571428571429,
+    "mean_swap_score_change": 0.0002778768539428711
+  },
+  {
+    "auc_clean": 0.1428571428571429,
+    "auc_marked": 0.1428571428571429,
+    "auc_delta_clean_minus_marked": 0.0,
+    "delta_ci95_patient_bootstrap": [
+      0.0,
+      0.0
+    ],
+    "mean_abs_score_change": 0.0004581312241498381,
+    "valid_bootstraps": 894,
+    "patients": 9,
+    "images": 9,
+    "shortcut_eradication_proven": false,
+    "seed": 33,
+    "arm": "raw",
+    "auc_inpaint": 0.1428571428571429,
+    "auc_swapped": 0.1428571428571429,
+    "mean_swap_score_change": 0.0001078645364032127
+  },
+  {
+    "auc_clean": 0.1428571428571429,
+    "auc_marked": 0.1428571428571429,
+    "auc_delta_clean_minus_marked": 0.0,
+    "delta_ci95_patient_bootstrap": [
+      0.0,
+      0.0
+    ],
+    "mean_abs_score_change": 0.0002634657721500844,
+    "valid_bootstraps": 894,
+    "patients": 9,
+    "images": 9,
+    "shortcut_eradication_proven": false,
+    "seed": 33,
+    "arm": "bbox",
+    "auc_inpaint": 0.1428571428571429,
+    "auc_swapped": 0.1428571428571429,
+    "mean_swap_score_change": 6.032983583281748e-05
+  },
+  {
+    "auc_clean": 0.1428571428571429,
+    "auc_marked": 0.1428571428571429,
+    "auc_delta_clean_minus_marked": 0.0,
+    "delta_ci95_patient_bootstrap": [
+      0.0,
+      0.0
+    ],
+    "mean_abs_score_change": 0.00022366311168298125,
+    "valid_bootstraps": 894,
+    "patients": 9,
+    "images": 9,
+    "shortcut_eradication_proven": false,
+    "seed": 33,
+    "arm": "inpaint",
+    "auc_inpaint": 0.1428571428571429,
+    "auc_swapped": 0.1428571428571429,
+    "mean_swap_score_change": 4.7561195970047265e-05
+  }
+]

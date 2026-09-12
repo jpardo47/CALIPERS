@@ -1,0 +1,482 @@
+[
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "a75088a874f2",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "6601cb36842e",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "ccdc811162a8",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "2f01d7c398b9",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "e2cf5eacb70a",
+    "manip": "Incierto",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "8224613519e9",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "16257e75a74a",
+    "manip": "No",
+    "distortion": 1,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "780d69f8bcb6",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 3,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "56d88762359c",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "0afe885efb38",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "7b1e07354b93",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 3,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "44ad4540bf6f",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "12528bc7fd1a",
+    "manip": "Sí",
+    "distortion": 2,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "beed8048f167",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "c50671b370c6",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "d1389e599eb5",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "88c9b9eea3cf",
+    "manip": "Incierto",
+    "distortion": 0,
+    "confidence": 3,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "bfd86af8526e",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "aaac72b20de5",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "ff15a7fd9131",
+    "manip": "No",
+    "distortion": 1,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "a68bde22eb5a",
+    "manip": "Incierto",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "3dfc5a5a5f78",
+    "manip": "Incierto",
+    "distortion": 2,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "18946e532b8f",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 3,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "9736efcdc99c",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 3,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "ff2edef6575a",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "63ea324768fb",
+    "manip": "No",
+    "distortion": 1,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "f302d4462d1a",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "66c8dd0f50ae",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "698f6463041f",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "f87b7a32f018",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "4d1e3324569b",
+    "manip": "No",
+    "distortion": 1,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "7e6ee7c054b8",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "ceb6183becc4",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "647820f0aa6e",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "f42e05c73e1c",
+    "manip": "Sí",
+    "distortion": 1,
+    "confidence": 3,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "0f2a22d9ad66",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "c50a4fbe8508",
+    "manip": "No",
+    "distortion": 1,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "93d4821dee79",
+    "manip": "No",
+    "distortion": 1,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "e8ee90e9363e",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 3,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "41d540eeee6e",
+    "manip": "No",
+    "distortion": 2,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "ec8c0127bbd2",
+    "manip": "Sí",
+    "distortion": 1,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "9de29ffa952c",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "a2114b76ea14",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "cd5d174bb257",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "a466f20d9181",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "0faca11d12b5",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 3,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "9df2ecb57a5b",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "e2d0a98a7abd",
+    "manip": "No",
+    "distortion": 1,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "6650a87bb2f1",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "9fa5da37360c",
+    "manip": "Sí",
+    "distortion": 1,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "6f89fba7b840",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "8845b78026a8",
+    "manip": "Sí",
+    "distortion": 1,
+    "confidence": 3,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "fe419daad7d8",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "13dbcd64d7d3",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "447c7df6defa",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 4,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "2a11f56a0caa",
+    "manip": "Sí",
+    "distortion": 0,
+    "confidence": 3,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "730f8b6a0903",
+    "manip": "No",
+    "distortion": 1,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "0c0ccf08d1ba",
+    "manip": "Sí",
+    "distortion": 1,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "7ff93fd8f522",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 3,
+    "timestamp": "2026-09-12T11:00:00Z"
+  },
+  {
+    "reader_id": "RAD_01_CLINICO",
+    "case_id": "85a7c8da8813",
+    "manip": "No",
+    "distortion": 0,
+    "confidence": 5,
+    "timestamp": "2026-09-12T11:00:00Z"
+  }
+]

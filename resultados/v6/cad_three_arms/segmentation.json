@@ -1,0 +1,164 @@
+[
+  {
+    "patient_id": "73",
+    "before": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "after": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "stability": {
+      "dice": 1.0,
+      "hd95": null,
+      "units": "px"
+    }
+  },
+  {
+    "patient_id": "91",
+    "before": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "after": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "stability": {
+      "dice": 1.0,
+      "hd95": null,
+      "units": "px"
+    }
+  },
+  {
+    "patient_id": "130",
+    "before": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "after": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "stability": {
+      "dice": 1.0,
+      "hd95": null,
+      "units": "px"
+    }
+  },
+  {
+    "patient_id": "156",
+    "before": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "after": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "stability": {
+      "dice": 1.0,
+      "hd95": null,
+      "units": "px"
+    }
+  },
+  {
+    "patient_id": "176",
+    "before": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "after": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "stability": {
+      "dice": 1.0,
+      "hd95": null,
+      "units": "px"
+    }
+  },
+  {
+    "patient_id": "195",
+    "before": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "after": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "stability": {
+      "dice": 1.0,
+      "hd95": null,
+      "units": "px"
+    }
+  },
+  {
+    "patient_id": "255",
+    "before": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "after": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "stability": {
+      "dice": 1.0,
+      "hd95": null,
+      "units": "px"
+    }
+  },
+  {
+    "patient_id": "341",
+    "before": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "after": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "stability": {
+      "dice": 1.0,
+      "hd95": null,
+      "units": "px"
+    }
+  },
+  {
+    "patient_id": "735",
+    "before": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "after": {
+      "dice": 0.0,
+      "hd95": null,
+      "units": "px"
+    },
+    "stability": {
+      "dice": 1.0,
+      "hd95": null,
+      "units": "px"
+    }
+  }
+]

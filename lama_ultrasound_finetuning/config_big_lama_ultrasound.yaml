@@ -1,0 +1,114 @@
+# @package _global_
+
+# Configuración de Reentrenamiento / Fine-Tuning de LaMa para Ecografía Mamaria
+# Compatible con el framework oficial advimman/lama (Hydra 1.1 + PyTorch Lightning)
+
+defaults:
+  - location: ultrasound_server
+  - data: abl-04-2-512
+  - generator: ffc_resnet_075
+  - discriminator: pix2pixhd_n1n2_multiscale
+  - optimizers: default_optimizers
+  - visualizer: null
+  - evaluator: default_inpainting
+  - trainer: any_gpu_large_ssim
+  - _self_
+
+exp_name: big-lama-ultrasound-finetune
+
+location:
+  data_root_dir: ./dataset_ecografia_clean
+  out_root_dir: ./experiments/lama_ultrasound
+  tb_dir: ./tb_logs/lama_ultrasound
+  pretrained_models_dir: ./pretrained_models
+
+data:
+  batch_size: 10
+  val_batch_size: 6
+  num_workers: 4
+  train:
+    indir: ${location.data_root_dir}/train
+    out_size: 512
+    # Configuración del generador sintético especializado en calipers y texto
+    mask_generator_kind: custom_ultrasound
+    mask_generator_kwargs:
+      min_calipers: 2
+      max_calipers: 6
+      line_thickness_range: [1, 3]
+      caliper_arm_length_range: [12, 28]
+      include_text: true
+      include_dotted_lines: true
+      nodule_bias_probability: 0.65
+    transform_variant: no_augs # Evitar rotaciones extremas que rompan la orientación acústica
+  val:
+    indir: ${location.data_root_dir}/val
+    out_size: 512
+    mask_generator_kind: custom_ultrasound
+    mask_generator_kwargs:
+      min_calipers: 2
+      max_calipers: 4
+      line_thickness_range: [1, 2]
+      caliper_arm_length_range: [14, 24]
+      include_text: true
+      include_dotted_lines: true
+      nodule_bias_probability: 0.65
+
+generator:
+  input_nc: 4   # 3 canales RGB + 1 canal de máscara binaria
+  output_nc: 3  # 3 canales RGB predichos
+  ngf: 64
+  n_downsampling: 3
+  n_blocks: 18
+  add_out_act: sigmoid
+  init_conv_kwargs:
+    ratio_gin: 0
+    ratio_gout: 0
+    enable_lfu: false
+  downsample_conv_kwargs:
+    ratio_gin: ${generator.init_conv_kwargs.ratio_gout}
+    ratio_gout: ${generator.downsample_conv_kwargs.ratio_gin}
+    enable_lfu: false
+  resnet_conv_kwargs:
+    ratio_gin: 0.75  # 75% canales para rama global Fourier FFC
+    ratio_gout: ${generator.resnet_conv_kwargs.ratio_gin}
+    enable_lfu: false
+
+discriminator:
+  input_nc: 3
+  ndf: 64
+  n_layers: 4
+
+losses:
+  l1:
+    weight_missing: 15.0 # Ponderación en zona faltante (caliper/texto)
+    weight_known: 1.0     # Ponderación en zona de contexto
+  perceptual:
+    weight: 30.0         # High-Receptive Field Perceptual Loss (HRFPL)
+  adversarial:
+    weight: 10.0         # Penalización adversarial para preservar granularidad del speckle
+  feature_matching:
+    weight: 100.0        # Coherencia de activaciones profundas del discriminador
+  resnet_pl:
+    weight: 30.0
+
+optimizers:
+  generator:
+    kind: adamw
+    lr: 0.0001           # 1e-4 para transfer learning estable sin descalibrar FFC
+    weight_decay: 0.0001
+    betas: [0.0, 0.99]
+  discriminator:
+    kind: adamw
+    lr: 0.0001
+    weight_decay: 0.0001
+    betas: [0.0, 0.99]
+
+trainer:
+  kwargs:
+    gpus: 1
+    accelerator: ddp
+    max_epochs: 40
+    gradient_clip_val: 1.0
+    log_every_n_steps: 10
+    val_check_interval: 1.0
+    accumulate_grad_batches: 2

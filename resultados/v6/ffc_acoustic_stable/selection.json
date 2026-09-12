@@ -1,0 +1,5 @@
+{
+  "selected_epoch": 3,
+  "val_loss": 0.01884107873775065,
+  "criterion": "lowest validation loss including initial checkpoint at epoch 0"
+}

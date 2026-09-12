@@ -1,0 +1,1469 @@
+{
+  "scope": "heldout_patients_pilot_unverified_cleanliness",
+  "manifest_sha256": "c8f012eb1caa05f55c6f20aed4288452b9ffd6218ad3ddf1dd7d164c774b7812",
+  "weights": {
+    "places2": "6668a6bf5e1d92654da5369115562022600112ac3ae31255dd72bc676bd40c48",
+    "l1": "26f7c5db18cc2f2e9cab76316ce19c3a090ad99fbcfbb9322c834e95b605446a",
+    "acoustic": "30fbf50da921ef2ff8f50833123696e7a8208f2faeb558180a7b7845e4267080"
+  },
+  "summaries": {
+    "places2": {
+      "ppsnr_db": {
+        "mean_patient": 29.554649826765072,
+        "ci95": [
+          28.127669572831792,
+          30.945866714823893
+        ],
+        "patients": 9
+      },
+      "pssim": {
+        "mean_patient": 0.8584290825910438,
+        "ci95": [
+          0.8425290832210152,
+          0.8776885774293888
+        ],
+        "patients": 9
+      },
+      "std_ratio": {
+        "mean_patient": 0.9640275486649915,
+        "ci95": [
+          0.8689298023813845,
+          1.0443882478911808
+        ],
+        "patients": 9
+      },
+      "sobel_jump": {
+        "mean_patient": 23.906473999536008,
+        "ci95": [
+          19.618509253202365,
+          28.873437169231885
+        ],
+        "patients": 9
+      },
+      "edge_l1": {
+        "mean_patient": 51.7047619047619,
+        "ci95": [
+          39.714285714285715,
+          74.6
+        ],
+        "patients": 3
+      }
+    },
+    "l1": {
+      "ppsnr_db": {
+        "mean_patient": 10.201595059200969,
+        "ci95": [
+          9.344188252409712,
+          11.045220173227829
+        ],
+        "patients": 9
+      },
+      "pssim": {
+        "mean_patient": 0.1510774858226953,
+        "ci95": [
+          0.11686311686956162,
+          0.18360986036962407
+        ],
+        "patients": 9
+      },
+      "std_ratio": {
+        "mean_patient": 3.114471478243025,
+        "ci95": [
+          2.4020199686664854,
+          3.78430622017113
+        ],
+        "patients": 9
+      },
+      "sobel_jump": {
+        "mean_patient": 103.29271019070713,
+        "ci95": [
+          91.08165192036026,
+          115.24807508314284
+        ],
+        "patients": 9
+      },
+      "edge_l1": {
+        "mean_patient": 282.8904761904762,
+        "ci95": [
+          170.80000000000004,
+          397.3
+        ],
+        "patients": 3
+      }
+    },
+    "acoustic": {
+      "ppsnr_db": {
+        "mean_patient": 10.202040213889846,
+        "ci95": [
+          9.345143563988135,
+          11.045393174970652
+        ],
+        "patients": 9
+      },
+      "pssim": {
+        "mean_patient": 0.15113264329809317,
+        "ci95": [
+          0.11688977281387662,
+          0.18365746949388284
+        ],
+        "patients": 9
+      },
+      "std_ratio": {
+        "mean_patient": 3.113839919195675,
+        "ci95": [
+          2.401400291993155,
+          3.7835982872533633
+        ],
+        "patients": 9
+      },
+      "sobel_jump": {
+        "mean_patient": 103.29675171591444,
+        "ci95": [
+          91.0715789394816,
+          115.25862425599279
+        ],
+        "patients": 9
+      },
+      "edge_l1": {
+        "mean_patient": 283.1047619047619,
+        "ci95": [
+          170.80000000000004,
+          397.8
+        ],
+        "patients": 3
+      }
+    }
+  },
+  "paired_difference_vs_places2": {
+    "l1-ppsnr_db": {
+      "mean_patient": -19.353054767564103,
+      "ci95": [
+        -20.363564579943926,
+        -17.923979157069404
+      ],
+      "patients": 9
+    },
+    "l1-pssim": {
+      "mean_patient": -0.7073515967683482,
+      "ci95": [
+        -0.7423404467244811,
+        -0.6680321129884729
+      ],
+      "patients": 9
+    },
+    "acoustic-ppsnr_db": {
+      "mean_patient": -19.352609612875224,
+      "ci95": [
+        -20.362599480319627,
+        -17.92398321444274
+      ],
+      "patients": 9
+    },
+    "acoustic-pssim": {
+      "mean_patient": -0.7072964392929505,
+      "ci95": [
+        -0.7422900174607993,
+        -0.6679669233770669
+      ],
+      "patients": 9
+    }
+  },
+  "rows": [
+    {
+      "mask_pixels": 668,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 1.1757658686144914,
+      "variance_ratio": 1.3824253777987894,
+      "ks_statistic": 0.07312298479963147,
+      "ks_p_iid_descriptive": 0.008205160943616039,
+      "sobel_jump": 22.120772635757707,
+      "glcm": {
+        "1": {
+          "contrast": 0.1092433516189536,
+          "homogeneity": 0.015850343230591757,
+          "entropy": 0.16138084789740947,
+          "correlation": 0.01599334676709596
+        },
+        "2": {
+          "contrast": 0.5247441382682232,
+          "homogeneity": 0.041563991081371654,
+          "entropy": 0.19753702795548556,
+          "correlation": 0.12478065192796495
+        },
+        "3": {
+          "contrast": 0.7943573729011653,
+          "homogeneity": 0.0649158305168307,
+          "entropy": 0.1696430108240783,
+          "correlation": 0.19111000920646615
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.031108124394990333,
+        "1:1": 0.002462049999743199,
+        "0:2": 0.17628131337498498,
+        "1:2": 0.007114157582332359,
+        "0:3": 0.34048419556084786,
+        "1:3": 0.016552451909314314
+      },
+      "ppsnr_db": 30.714311167759227,
+      "pssim": 0.920744375335638,
+      "edge_l1": 40.8,
+      "perfect_reconstruction": false,
+      "method": "places2",
+      "patient_id": "73",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 0
+    },
+    {
+      "mask_pixels": 655,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.9460856475965241,
+      "variance_ratio": 0.8950780525881344,
+      "ks_statistic": 0.05339782236511262,
+      "ks_p_iid_descriptive": 0.15596273343157308,
+      "sobel_jump": 16.471195394015346,
+      "glcm": {
+        "1": {
+          "contrast": 0.008562054941566033,
+          "homogeneity": 0.006963941762544668,
+          "entropy": 0.04673036540940734,
+          "correlation": 0.011588591335945586
+        },
+        "2": {
+          "contrast": 0.027590809494877244,
+          "homogeneity": 0.036658023539781204,
+          "entropy": 0.06292792693602278,
+          "correlation": 0.008085241592213466
+        },
+        "3": {
+          "contrast": 0.12605313168105137,
+          "homogeneity": 0.03424190946714967,
+          "entropy": 0.018574173604035238,
+          "correlation": 0.005398381741056779
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.0005256843531653566,
+        "1:1": 0.006350557546857538,
+        "0:2": 0.027585353576685456,
+        "1:2": 0.017132708718484935,
+        "0:3": 0.06446430584085927,
+        "1:3": 0.012728180246421528
+      },
+      "ppsnr_db": 30.738765310618245,
+      "pssim": 0.8480532128628507,
+      "edge_l1": 39.714285714285715,
+      "perfect_reconstruction": false,
+      "method": "places2",
+      "patient_id": "91",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 1
+    },
+    {
+      "mask_pixels": 821,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.9005128201863144,
+      "variance_ratio": 0.8109233393199095,
+      "ks_statistic": 0.0919311881159986,
+      "ks_p_iid_descriptive": 5.0283936016967296e-05,
+      "sobel_jump": 26.772911033141344,
+      "glcm": {
+        "1": {
+          "contrast": 0.07391549285353438,
+          "homogeneity": 0.00797109648552563,
+          "entropy": 0.08684205073085227,
+          "correlation": 0.009195105503927103
+        },
+        "2": {
+          "contrast": 0.12301146873843871,
+          "homogeneity": 0.008474668606589075,
+          "entropy": 0.09312435198066105,
+          "correlation": 0.027812359577330636
+        },
+        "3": {
+          "contrast": 0.03249832248274309,
+          "homogeneity": 0.027693109721500186,
+          "entropy": 0.057541367565440815,
+          "correlation": 0.07776559288907448
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.004777275251674706,
+        "1:1": 0.0054804860028296876,
+        "0:2": 0.023987358815453552,
+        "1:2": 0.01607799395352183,
+        "0:3": 0.054876294801896264,
+        "1:3": 0.03083637675879891
+      },
+      "ppsnr_db": 27.91568754109654,
+      "pssim": 0.8366667443906699,
+      "edge_l1": 74.6,
+      "perfect_reconstruction": false,
+      "method": "places2",
+      "patient_id": "130",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 2
+    },
+    {
+      "mask_pixels": 715,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 1.0750383139856345,
+      "variance_ratio": 1.1557073765370758,
+      "ks_statistic": 0.08458663907094402,
+      "ks_p_iid_descriptive": 0.0005850719889200006,
+      "sobel_jump": 21.23984208325334,
+      "glcm": {
+        "1": {
+          "contrast": 0.0752547701243495,
+          "homogeneity": 0.02119459685038616,
+          "entropy": 0.026676637679372117,
+          "correlation": 0.039717734225292234
+        },
+        "2": {
+          "contrast": 0.20682926561869042,
+          "homogeneity": 0.022433284845476686,
+          "entropy": 0.008713185944883683,
+          "correlation": 0.10409072296310162
+        },
+        "3": {
+          "contrast": 0.2901880556402956,
+          "homogeneity": 0.025055611702667124,
+          "entropy": 0.01685344938997524,
+          "correlation": 0.1385212659320193
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.04680523376685197,
+        "1:1": 0.0036075668426919227,
+        "0:2": 0.12152214114166549,
+        "1:2": 0.00020526832937572959,
+        "0:3": 0.18225831561232436,
+        "1:3": 0.011331958366398553
+      },
+      "ppsnr_db": 30.08535863066646,
+      "pssim": 0.863705235123203,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "places2",
+      "patient_id": "156",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 3
+    },
+    {
+      "mask_pixels": 620,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.9881397066987769,
+      "variance_ratio": 0.9764200799547449,
+      "ks_statistic": 0.05578075934912935,
+      "ks_p_iid_descriptive": 0.09297046026806355,
+      "sobel_jump": 17.62349352165481,
+      "glcm": {
+        "1": {
+          "contrast": 0.0439118503748826,
+          "homogeneity": 0.02271967410656972,
+          "entropy": 0.3338672683625874,
+          "correlation": 0.012942762025669019
+        },
+        "2": {
+          "contrast": 0.1635802013112938,
+          "homogeneity": 0.051694246929541166,
+          "entropy": 0.5132957355444483,
+          "correlation": 0.051750494289355964
+        },
+        "3": {
+          "contrast": 0.25934387298754336,
+          "homogeneity": 0.07489963653056497,
+          "entropy": 0.6998760272558222,
+          "correlation": 0.05096293564227872
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.006189829626271903,
+        "1:1": 0.008583201920359884,
+        "0:2": 0.04477044361641469,
+        "1:2": 0.031416193513594814,
+        "0:3": 0.05407003267623561,
+        "1:3": 0.01743950032752828
+      },
+      "ppsnr_db": 32.2468213504209,
+      "pssim": 0.8754168212730512,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "places2",
+      "patient_id": "176",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 4
+    },
+    {
+      "mask_pixels": 648,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 1.0313889767507691,
+      "variance_ratio": 1.0637632213629986,
+      "ks_statistic": 0.11062986310638445,
+      "ks_p_iid_descriptive": 5.6171832876400836e-06,
+      "sobel_jump": 22.31691450584247,
+      "glcm": {
+        "1": {
+          "contrast": 0.027953574521987545,
+          "homogeneity": 0.005178116983428183,
+          "entropy": 0.003886498588922649,
+          "correlation": 0.012397729055877105
+        },
+        "2": {
+          "contrast": 0.15290231768630957,
+          "homogeneity": 0.011885247391454024,
+          "entropy": 0.07317658256495552,
+          "correlation": 0.052782330760895446
+        },
+        "3": {
+          "contrast": 0.15758257880217674,
+          "homogeneity": 0.0028917941439452477,
+          "entropy": 0.046994117662958246,
+          "correlation": 0.06509797645828264
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.02090487983067335,
+        "1:1": 0.003438613172271454,
+        "0:2": 0.059265589669980745,
+        "1:2": 0.003381657817865702,
+        "0:3": 0.06076692164587494,
+        "1:3": 0.021483582166026416
+      },
+      "ppsnr_db": 30.355103457864196,
+      "pssim": 0.8392853035016503,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "places2",
+      "patient_id": "195",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 5
+    },
+    {
+      "mask_pixels": 692,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.9460715183324958,
+      "variance_ratio": 0.895051317799954,
+      "ks_statistic": 0.06385707673976615,
+      "ks_p_iid_descriptive": 0.024560394615759207,
+      "sobel_jump": 18.833445812547854,
+      "glcm": {
+        "1": {
+          "contrast": 0.04608252624983522,
+          "homogeneity": 0.003524690360503291,
+          "entropy": 0.22326124848806428,
+          "correlation": 0.0043062383065679555
+        },
+        "2": {
+          "contrast": 0.10999551896039872,
+          "homogeneity": 0.009699577436690254,
+          "entropy": 0.2626945029611183,
+          "correlation": 0.00601014897146146
+        },
+        "3": {
+          "contrast": 0.1829699491803114,
+          "homogeneity": 0.013788637632399903,
+          "entropy": 0.36754229054294596,
+          "correlation": 0.0015873583892948018
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.014433484849920353,
+        "1:1": 0.013089331717453412,
+        "0:2": 0.026564013778640816,
+        "1:2": 0.03536951042989123,
+        "0:3": 0.007657954497277686,
+        "1:3": 0.08966692210830562
+      },
+      "ppsnr_db": 31.347119985580317,
+      "pssim": 0.8738051768640002,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "places2",
+      "patient_id": "255",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 6
+    },
+    {
+      "mask_pixels": 877,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.9542890221222816,
+      "variance_ratio": 0.9106675377431005,
+      "ks_statistic": 0.23959997170747704,
+      "ks_p_iid_descriptive": 1.3820615323444618e-34,
+      "sobel_jump": 29.441685593075967,
+      "glcm": {
+        "1": {
+          "contrast": 0.07131867519098489,
+          "homogeneity": 0.027312183054995165,
+          "entropy": 0.2621978555289033,
+          "correlation": 0.005152573852653219
+        },
+        "2": {
+          "contrast": 0.2772110836755688,
+          "homogeneity": 0.03663826698978534,
+          "entropy": 0.3347904233637031,
+          "correlation": 0.040347067535804526
+        },
+        "3": {
+          "contrast": 0.33527718863351463,
+          "homogeneity": 0.047391187733863194,
+          "entropy": 0.406938416402002,
+          "correlation": 0.06241679794659993
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.008393481370304934,
+        "1:1": 0.007429303441454538,
+        "0:2": 0.04618345214369235,
+        "1:2": 0.011963257665044469,
+        "0:3": 0.08304080317105189,
+        "1:3": 0.0124735003390255
+      },
+      "ppsnr_db": 27.78607855404049,
+      "pssim": 0.8475060019330669,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "places2",
+      "patient_id": "341",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 7
+    },
+    {
+      "mask_pixels": 656,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.6589560636976364,
+      "variance_ratio": 0.4342230938838834,
+      "ks_statistic": 0.22869181113366382,
+      "ks_p_iid_descriptive": 4.0179893892975024e-25,
+      "sobel_jump": 40.338005416535225,
+      "glcm": {
+        "1": {
+          "contrast": 0.035144640388895754,
+          "homogeneity": 0.04939642952101142,
+          "entropy": 0.3815937375219356,
+          "correlation": 0.1044455449739774
+        },
+        "2": {
+          "contrast": 0.10396499934700287,
+          "homogeneity": 0.05911069490998666,
+          "entropy": 0.4165937554481989,
+          "correlation": 0.23401756797475903
+        },
+        "3": {
+          "contrast": 0.3868242460187603,
+          "homogeneity": 0.03890850091361997,
+          "entropy": 0.5389813344307308,
+          "correlation": 0.30117343986201983
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.09632853469620772,
+        "1:1": 0.024910126330042304,
+        "0:2": 0.2763943074591292,
+        "1:2": 0.06833550662620913,
+        "0:3": 0.3421777353739733,
+        "1:3": 0.11085535894698739
+      },
+      "ppsnr_db": 24.80260244283925,
+      "pssim": 0.8206788720352629,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "places2",
+      "patient_id": "735",
+      "device": "GE Logiq 5 @10-12MHz",
+      "case": 8
+    },
+    {
+      "mask_pixels": 668,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 3.9320180533492524,
+      "variance_ratio": 15.460765971864443,
+      "ks_statistic": 0.43254121128372625,
+      "ks_p_iid_descriptive": 4.551034799369134e-87,
+      "sobel_jump": 117.34830635942541,
+      "glcm": {
+        "1": {
+          "contrast": 15.766063974604991,
+          "homogeneity": 0.43183070387406286,
+          "entropy": 3.397405230356516,
+          "correlation": 0.19767909591460675
+        },
+        "2": {
+          "contrast": 23.254866462427245,
+          "homogeneity": 0.3644973161368848,
+          "entropy": 3.096949527918632,
+          "correlation": 0.22043003006112116
+        },
+        "3": {
+          "contrast": 25.194564198133843,
+          "homogeneity": 0.3315961512199445,
+          "entropy": 2.9122135344178206,
+          "correlation": 0.1573415843872346
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.08920507289332702,
+        "1:1": 0.28204858067240657,
+        "0:2": 0.09041429134717027,
+        "1:2": 0.4555872598346497,
+        "0:3": 0.03164062465128881,
+        "1:3": 0.46597321739436887
+      },
+      "ppsnr_db": 9.476081879995482,
+      "pssim": 0.16279870876018945,
+      "edge_l1": 170.8,
+      "perfect_reconstruction": false,
+      "method": "l1",
+      "patient_id": "73",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 0
+    },
+    {
+      "mask_pixels": 655,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 3.176340122689798,
+      "variance_ratio": 10.089136575009041,
+      "ks_statistic": 0.32519535995389326,
+      "ks_p_iid_descriptive": 5.0982760793224765e-42,
+      "sobel_jump": 115.69856546699778,
+      "glcm": {
+        "1": {
+          "contrast": 17.98466595104546,
+          "homogeneity": 0.4943856017156936,
+          "entropy": 3.2636936262642893,
+          "correlation": 0.31355175839888705
+        },
+        "2": {
+          "contrast": 17.76348567775725,
+          "homogeneity": 0.4087080182755339,
+          "entropy": 2.8252446431493836,
+          "correlation": 0.22081122840887157
+        },
+        "3": {
+          "contrast": 18.26298796420936,
+          "homogeneity": 0.36937333907874903,
+          "entropy": 2.6538592556584657,
+          "correlation": 0.16165761600132278
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.16069030205654866,
+        "1:1": 0.39188103593944223,
+        "0:2": 0.1396050390446879,
+        "1:2": 0.37998470221164615,
+        "0:3": 0.09295230679509103,
+        "1:3": 0.31526633332696097
+      },
+      "ppsnr_db": 10.34453525677176,
+      "pssim": 0.08710141907216004,
+      "edge_l1": 280.57142857142856,
+      "perfect_reconstruction": false,
+      "method": "l1",
+      "patient_id": "91",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 1
+    },
+    {
+      "mask_pixels": 821,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 1.9622226109429264,
+      "variance_ratio": 3.850317574895675,
+      "ks_statistic": 0.6549579184054647,
+      "ks_p_iid_descriptive": 8.432192390878479e-262,
+      "sobel_jump": 133.19685567758103,
+      "glcm": {
+        "1": {
+          "contrast": 14.730226008440681,
+          "homogeneity": 0.24264072159720684,
+          "entropy": 1.0407838856597955,
+          "correlation": 0.3251717508536591
+        },
+        "2": {
+          "contrast": 18.054071864594892,
+          "homogeneity": 0.18992019305760982,
+          "entropy": 0.8168440486069102,
+          "correlation": 0.3286121664687711
+        },
+        "3": {
+          "contrast": 18.099886009670765,
+          "homogeneity": 0.14358485566594564,
+          "entropy": 0.47337046285435136,
+          "correlation": 0.3321237612319922
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.2005806805430259,
+        "1:1": 0.32811569401845575,
+        "0:2": 0.25035591894894627,
+        "1:2": 0.4240649922852414,
+        "0:3": 0.2546020956293662,
+        "1:3": 0.4796056761438518
+      },
+      "ppsnr_db": 7.600084711971554,
+      "pssim": 0.06676799252014091,
+      "edge_l1": 397.3,
+      "perfect_reconstruction": false,
+      "method": "l1",
+      "patient_id": "130",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 2
+    },
+    {
+      "mask_pixels": 715,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 3.9323561966566642,
+      "variance_ratio": 15.463425257384065,
+      "ks_statistic": 0.3111271389298295,
+      "ks_p_iid_descriptive": 5.377193505057861e-49,
+      "sobel_jump": 97.25248724655054,
+      "glcm": {
+        "1": {
+          "contrast": 14.118324996412614,
+          "homogeneity": 0.4025895279654377,
+          "entropy": 2.6190629129738086,
+          "correlation": 0.13830384244548588
+        },
+        "2": {
+          "contrast": 14.344848586730304,
+          "homogeneity": 0.28354886751817077,
+          "entropy": 1.919402992447111,
+          "correlation": 0.0413933860071628
+        },
+        "3": {
+          "contrast": 15.920338260149181,
+          "homogeneity": 0.25212228013968335,
+          "entropy": 1.8219760939285985,
+          "correlation": 0.12631328935379738
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.041722447856017975,
+        "1:1": 0.24383585436987443,
+        "0:2": 0.12129350289654672,
+        "1:2": 0.21290040816246136,
+        "0:3": 0.2765555870906448,
+        "1:3": 0.2104765266998444
+      },
+      "ppsnr_db": 10.418620018632085,
+      "pssim": 0.1622066352677151,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "l1",
+      "patient_id": "156",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 3
+    },
+    {
+      "mask_pixels": 620,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 4.244229559033728,
+      "variance_ratio": 18.01348454977563,
+      "ks_statistic": 0.3962175278332858,
+      "ks_p_iid_descriptive": 1.872134795154373e-69,
+      "sobel_jump": 86.33827080286936,
+      "glcm": {
+        "1": {
+          "contrast": 14.830222098816801,
+          "homogeneity": 0.4718809967516361,
+          "entropy": 3.0179298312543548,
+          "correlation": 0.2680860404170943
+        },
+        "2": {
+          "contrast": 12.773562655831565,
+          "homogeneity": 0.3440442865711291,
+          "entropy": 2.397953419018722,
+          "correlation": 0.05545122181110185
+        },
+        "3": {
+          "contrast": 12.509549883858021,
+          "homogeneity": 0.34205814716926586,
+          "entropy": 2.363388544986614,
+          "correlation": 0.04019278212718347
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.14132758718260585,
+        "1:1": 0.40939031498665646,
+        "0:2": 0.03310781638650129,
+        "1:2": 0.38772399623579,
+        "0:3": 0.17550111352248876,
+        "1:3": 0.3388648856644927
+      },
+      "ppsnr_db": 12.261077844338928,
+      "pssim": 0.14461895111535394,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "l1",
+      "patient_id": "176",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 4
+    },
+    {
+      "mask_pixels": 648,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 3.852343481328716,
+      "variance_ratio": 14.84055029813585,
+      "ks_statistic": 0.31246396596004217,
+      "ks_p_iid_descriptive": 1.9638655276228185e-45,
+      "sobel_jump": 84.37786631072908,
+      "glcm": {
+        "1": {
+          "contrast": 9.855604376960493,
+          "homogeneity": 0.32915105254636834,
+          "entropy": 1.98265371868338,
+          "correlation": 0.06639064117489879
+        },
+        "2": {
+          "contrast": 10.914355627620417,
+          "homogeneity": 0.23812127496771518,
+          "entropy": 1.374344244762951,
+          "correlation": 0.05159965985886972
+        },
+        "3": {
+          "contrast": 13.371374950155351,
+          "homogeneity": 0.2067561639634959,
+          "entropy": 1.316500872360674,
+          "correlation": 0.11426410903331807
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.029960105121016656,
+        "1:1": 0.1485898518872053,
+        "0:2": 0.12449028008914742,
+        "1:2": 0.17660839438252374,
+        "0:3": 0.23965727675164117,
+        "1:3": 0.1930593198859607
+      },
+      "ppsnr_db": 10.169574210323615,
+      "pssim": 0.13579908486741774,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "l1",
+      "patient_id": "195",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 5
+    },
+    {
+      "mask_pixels": 692,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 3.6840875173552785,
+      "variance_ratio": 13.57250083553298,
+      "ks_statistic": 0.3582928774704336,
+      "ks_p_iid_descriptive": 7.0811957669467045e-62,
+      "sobel_jump": 76.14165011449751,
+      "glcm": {
+        "1": {
+          "contrast": 10.909095217181386,
+          "homogeneity": 0.38471352223924693,
+          "entropy": 2.030817157886293,
+          "correlation": 0.14849807573932705
+        },
+        "2": {
+          "contrast": 8.681793337344587,
+          "homogeneity": 0.25180033621902226,
+          "entropy": 1.3641563967377408,
+          "correlation": 0.01395187904419748
+        },
+        "3": {
+          "contrast": 9.618035075945318,
+          "homogeneity": 0.24302803354298286,
+          "entropy": 1.3499043793352383,
+          "correlation": 0.04184603022833555
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.09389829602436517,
+        "1:1": 0.20732983395522453,
+        "0:2": 0.06813987149490797,
+        "1:2": 0.16309795122911686,
+        "0:3": 0.1401024915275857,
+        "1:3": 0.1398653323137945
+      },
+      "ppsnr_db": 11.466876464990204,
+      "pssim": 0.17253143922200548,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "l1",
+      "patient_id": "255",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 6
+    },
+    {
+      "mask_pixels": 877,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 2.374370217268063,
+      "variance_ratio": 5.6376339286495885,
+      "ks_statistic": 0.5488710583813101,
+      "ks_p_iid_descriptive": 2.0493999007720746e-191,
+      "sobel_jump": 115.9125061657662,
+      "glcm": {
+        "1": {
+          "contrast": 12.86371612759324,
+          "homogeneity": 0.23613919673921546,
+          "entropy": 1.3542918759198814,
+          "correlation": 0.2154738492423337
+        },
+        "2": {
+          "contrast": 15.204212254890624,
+          "homogeneity": 0.1425380309030807,
+          "entropy": 0.8501069913231367,
+          "correlation": 0.13929289618526908
+        },
+        "3": {
+          "contrast": 14.378809282775133,
+          "homogeneity": 0.10057867856633373,
+          "entropy": 0.6229243799336608,
+          "correlation": 0.041178794264079555
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.09792846961927182,
+        "1:1": 0.25969273452772257,
+        "0:2": 0.012767169733772121,
+        "1:2": 0.3356676165774981,
+        "0:3": 0.09341264440336572,
+        "1:3": 0.35650388817689793
+      },
+      "ppsnr_db": 9.417210681492481,
+      "pssim": 0.180607714326354,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "l1",
+      "patient_id": "341",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 7
+    },
+    {
+      "mask_pixels": 656,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8722755455628007,
+      "variance_ratio": 0.7608646273868817,
+      "ks_statistic": 0.6955898745549529,
+      "ks_p_iid_descriptive": 7.880221002758173e-260,
+      "sobel_jump": 103.36788357194716,
+      "glcm": {
+        "1": {
+          "contrast": 3.962940514438842,
+          "homogeneity": 0.014531689783041202,
+          "entropy": 1.4927278040491974,
+          "correlation": 0.4332345989229326
+        },
+        "2": {
+          "contrast": 4.275265769883767,
+          "homogeneity": 0.055084062897315156,
+          "entropy": 1.835932925667045,
+          "correlation": 0.5407964305404462
+        },
+        "3": {
+          "contrast": 3.5147464346095116,
+          "homogeneity": 0.10979180586560722,
+          "entropy": 2.234213492452055,
+          "correlation": 0.5820686008956866
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.354900857829036,
+        "1:1": 0.3343840457496575,
+        "0:2": 0.6032396395405256,
+        "1:2": 0.53148989794556,
+        "0:3": 0.6215306066540948,
+        "1:3": 0.5285496536533565
+      },
+      "ppsnr_db": 10.660294464292603,
+      "pssim": 0.24726542725292125,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "l1",
+      "patient_id": "735",
+      "device": "GE Logiq 5 @10-12MHz",
+      "case": 8
+    },
+    {
+      "mask_pixels": 668,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 3.9305740074093536,
+      "variance_ratio": 15.449412027722024,
+      "ks_statistic": 0.4317797970492582,
+      "ks_p_iid_descriptive": 9.499557296376418e-87,
+      "sobel_jump": 117.22256876476652,
+      "glcm": {
+        "1": {
+          "contrast": 15.726321761930445,
+          "homogeneity": 0.4321037208388091,
+          "entropy": 3.39591069426213,
+          "correlation": 0.19729197499479412
+        },
+        "2": {
+          "contrast": 23.25027930646394,
+          "homogeneity": 0.3638200608431462,
+          "entropy": 3.095661964732898,
+          "correlation": 0.2207836292598277
+        },
+        "3": {
+          "contrast": 25.21834909989186,
+          "homogeneity": 0.33173772966933196,
+          "entropy": 2.90981097563386,
+          "correlation": 0.1578222276876461
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.08930298404507364,
+        "1:1": 0.2818926036736358,
+        "0:2": 0.09049980154348514,
+        "1:2": 0.4552353230298254,
+        "0:3": 0.03195831156922424,
+        "1:3": 0.4650449756899081
+      },
+      "ppsnr_db": 9.47951729447835,
+      "pssim": 0.1629124925170589,
+      "edge_l1": 170.8,
+      "perfect_reconstruction": false,
+      "method": "acoustic",
+      "patient_id": "73",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 0
+    },
+    {
+      "mask_pixels": 655,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 3.1759019987917694,
+      "variance_ratio": 10.086353505929555,
+      "ks_statistic": 0.32658307953961163,
+      "ks_p_iid_descriptive": 2.2020160375525338e-42,
+      "sobel_jump": 115.73617538430021,
+      "glcm": {
+        "1": {
+          "contrast": 17.99349711987663,
+          "homogeneity": 0.49487637840962667,
+          "entropy": 3.2677941285683243,
+          "correlation": 0.31408396874308087
+        },
+        "2": {
+          "contrast": 17.75002958710569,
+          "homogeneity": 0.4103269601635976,
+          "entropy": 2.8300755610646715,
+          "correlation": 0.22090942340643127
+        },
+        "3": {
+          "contrast": 18.281252804392004,
+          "homogeneity": 0.36835618158778005,
+          "entropy": 2.657654137559499,
+          "correlation": 0.1623290584793894
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.16064721097318535,
+        "1:1": 0.3921446438026833,
+        "0:2": 0.13925437599341617,
+        "1:2": 0.3799809071215057,
+        "0:3": 0.09254396016913191,
+        "1:3": 0.31555260095335735
+      },
+      "ppsnr_db": 10.344153336088397,
+      "pssim": 0.0871485827016077,
+      "edge_l1": 280.7142857142857,
+      "perfect_reconstruction": false,
+      "method": "acoustic",
+      "patient_id": "91",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 1
+    },
+    {
+      "mask_pixels": 821,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 1.9611691488716474,
+      "variance_ratio": 3.846184430485942,
+      "ks_statistic": 0.6549579184054647,
+      "ks_p_iid_descriptive": 8.432192390878479e-262,
+      "sobel_jump": 133.33254248628066,
+      "glcm": {
+        "1": {
+          "contrast": 14.753090546835853,
+          "homogeneity": 0.24396547825460269,
+          "entropy": 1.029555221438783,
+          "correlation": 0.3255079974220536
+        },
+        "2": {
+          "contrast": 18.032625786163525,
+          "homogeneity": 0.18967464880027007,
+          "entropy": 0.8106378792548377,
+          "correlation": 0.32814334227129704
+        },
+        "3": {
+          "contrast": 18.120684678555953,
+          "homogeneity": 0.14319934290257125,
+          "entropy": 0.4638282104227418,
+          "correlation": 0.3327764299006245
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.20063480530266453,
+        "1:1": 0.3281452045094544,
+        "0:2": 0.2502438098127485,
+        "1:2": 0.4240762215305791,
+        "0:3": 0.25452968915186636,
+        "1:3": 0.47960454812644465
+      },
+      "ppsnr_db": 7.598336119116452,
+      "pssim": 0.06671424504255985,
+      "edge_l1": 397.8,
+      "perfect_reconstruction": false,
+      "method": "acoustic",
+      "patient_id": "130",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 2
+    },
+    {
+      "mask_pixels": 715,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 3.9319675128716534,
+      "variance_ratio": 15.460368522278095,
+      "ks_statistic": 0.3111271389298295,
+      "ks_p_iid_descriptive": 5.377193505057861e-49,
+      "sobel_jump": 97.29546327588666,
+      "glcm": {
+        "1": {
+          "contrast": 14.095465074233626,
+          "homogeneity": 0.4024269421612584,
+          "entropy": 2.620454797275143,
+          "correlation": 0.1379882135505499
+        },
+        "2": {
+          "contrast": 14.326056640421578,
+          "homogeneity": 0.2840550835948566,
+          "entropy": 1.92102753817937,
+          "correlation": 0.04156364823122449
+        },
+        "3": {
+          "contrast": 15.83826867941769,
+          "homogeneity": 0.25101466087124236,
+          "entropy": 1.8201788061542992,
+          "correlation": 0.1275594112089885
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.04176214267694067,
+        "1:1": 0.2437884186779572,
+        "0:2": 0.1211464221744375,
+        "1:2": 0.21331348542094664,
+        "0:3": 0.27628221880889153,
+        "1:3": 0.21041802936483334
+      },
+      "ppsnr_db": 10.418607675069044,
+      "pssim": 0.16227192799712697,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "acoustic",
+      "patient_id": "156",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 3
+    },
+    {
+      "mask_pixels": 620,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 4.2438839442408955,
+      "variance_ratio": 18.010550932185662,
+      "ks_statistic": 0.3962175278332858,
+      "ks_p_iid_descriptive": 1.872134795154373e-69,
+      "sobel_jump": 86.34657085369956,
+      "glcm": {
+        "1": {
+          "contrast": 14.835995770872229,
+          "homogeneity": 0.47154129837498615,
+          "entropy": 3.016642878973946,
+          "correlation": 0.2681196909144319
+        },
+        "2": {
+          "contrast": 12.753970819096871,
+          "homogeneity": 0.3430646947343944,
+          "entropy": 2.394333316408929,
+          "correlation": 0.05472300522782558
+        },
+        "3": {
+          "contrast": 12.508454593606105,
+          "homogeneity": 0.3416651312553428,
+          "entropy": 2.3605066999507467,
+          "correlation": 0.04035602775367342
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.14150418790727692,
+        "1:1": 0.4093220677663377,
+        "0:2": 0.03280699756638095,
+        "1:2": 0.38727342807947784,
+        "0:3": 0.17578894064383943,
+        "1:3": 0.3387923531224718
+      },
+      "ppsnr_db": 12.262138633197768,
+      "pssim": 0.1446767592057968,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "acoustic",
+      "patient_id": "176",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 4
+    },
+    {
+      "mask_pixels": 648,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 3.8515438933529027,
+      "variance_ratio": 14.834390362424037,
+      "ks_statistic": 0.31092075608349895,
+      "ks_p_iid_descriptive": 5.578499659571155e-45,
+      "sobel_jump": 84.38637888414948,
+      "glcm": {
+        "1": {
+          "contrast": 9.84428362224351,
+          "homogeneity": 0.32910963336621446,
+          "entropy": 1.9835855720659965,
+          "correlation": 0.06618793409473056
+        },
+        "2": {
+          "contrast": 10.915833824220563,
+          "homogeneity": 0.23737232081847404,
+          "entropy": 1.3752053842833032,
+          "correlation": 0.051578422570950244
+        },
+        "3": {
+          "contrast": 13.393575722356125,
+          "homogeneity": 0.20770438108818357,
+          "entropy": 1.3185790334660243,
+          "correlation": 0.11390675730618638
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.029784436216151233,
+        "1:1": 0.14844490553486767,
+        "0:2": 0.12474815289623697,
+        "1:2": 0.17635229323952262,
+        "0:3": 0.23974092341590103,
+        "1:3": 0.19292775350465052
+      },
+      "ppsnr_db": 10.170995560066283,
+      "pssim": 0.13581210406756952,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "acoustic",
+      "patient_id": "195",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 5
+    },
+    {
+      "mask_pixels": 692,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 3.684065094793018,
+      "variance_ratio": 13.572335622672288,
+      "ks_statistic": 0.3582928774704336,
+      "ks_p_iid_descriptive": 7.0811957669467045e-62,
+      "sobel_jump": 76.1882688414175,
+      "glcm": {
+        "1": {
+          "contrast": 11.010589292400345,
+          "homogeneity": 0.38467808412461324,
+          "entropy": 2.0336710330718444,
+          "correlation": 0.1500950319187735
+        },
+        "2": {
+          "contrast": 8.736778674587988,
+          "homogeneity": 0.25165548527363,
+          "entropy": 1.367706567458014,
+          "correlation": 0.013112528664397605
+        },
+        "3": {
+          "contrast": 9.721552663885015,
+          "homogeneity": 0.24440316097444503,
+          "entropy": 1.3455033599475454,
+          "correlation": 0.04003392722651067
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.09377112638469609,
+        "1:1": 0.20774320172410077,
+        "0:2": 0.06846618880940991,
+        "1:2": 0.16304783100030895,
+        "0:3": 0.14010611533393547,
+        "1:3": 0.1395204758717825
+      },
+      "ppsnr_db": 11.467589534342146,
+      "pssim": 0.17263953439616997,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "acoustic",
+      "patient_id": "255",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 6
+    },
+    {
+      "mask_pixels": 877,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 2.374178615327732,
+      "variance_ratio": 5.636724097479507,
+      "ks_statistic": 0.5488710583813101,
+      "ks_p_iid_descriptive": 2.0493999007720746e-191,
+      "sobel_jump": 115.84630622809212,
+      "glcm": {
+        "1": {
+          "contrast": 12.913600118312495,
+          "homogeneity": 0.23650858937316854,
+          "entropy": 1.3527438888441088,
+          "correlation": 0.2162620538083858
+        },
+        "2": {
+          "contrast": 15.262820313498683,
+          "homogeneity": 0.14277470827776662,
+          "entropy": 0.8507274955579618,
+          "correlation": 0.13988409164725601
+        },
+        "3": {
+          "contrast": 14.459004540794655,
+          "homogeneity": 0.09936950120655852,
+          "entropy": 0.6234456211582193,
+          "correlation": 0.042074514505764715
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.09778170723700752,
+        "1:1": 0.2592281282979988,
+        "0:2": 0.012848973282686083,
+        "1:2": 0.3350770102941377,
+        "0:3": 0.09344469792597887,
+        "1:3": 0.35598175498760265
+      },
+      "ppsnr_db": 9.417160737392491,
+      "pssim": 0.18070607661412005,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "acoustic",
+      "patient_id": "341",
+      "device": "GE Logiq 7 @10-14MHz",
+      "case": 7
+    },
+    {
+      "mask_pixels": 656,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8712750571021056,
+      "variance_ratio": 0.7591202251282774,
+      "ks_statistic": 0.6955898745549529,
+      "ks_p_iid_descriptive": 7.880221002758173e-260,
+      "sobel_jump": 103.31649072463725,
+      "glcm": {
+        "1": {
+          "contrast": 3.949368310312892,
+          "homogeneity": 0.014106959630393767,
+          "entropy": 1.4921714484647337,
+          "correlation": 0.4340531943885092
+        },
+        "2": {
+          "contrast": 4.235265769883767,
+          "homogeneity": 0.05524157787835959,
+          "entropy": 1.8355761019728085,
+          "correlation": 0.5406319836169788
+        },
+        "3": {
+          "contrast": 3.4969453874890926,
+          "homogeneity": 0.10931088856916793,
+          "entropy": 2.2366886069668284,
+          "correlation": 0.5843138792933209
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.354348414273575,
+        "1:1": 0.33482964411178495,
+        "0:2": 0.603231796587965,
+        "1:2": 0.5312036154702902,
+        "0:3": 0.6216228427522003,
+        "1:3": 0.5288359587585192
+      },
+      "ppsnr_db": 10.65986303525769,
+      "pssim": 0.24731206714082893,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "method": "acoustic",
+      "patient_id": "735",
+      "device": "GE Logiq 5 @10-12MHz",
+      "case": 8
+    }
+  ]
+}

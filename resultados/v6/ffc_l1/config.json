@@ -1,0 +1,21 @@
+{
+  "manifest": "resultados/v6/ffc_pilot_manifest.json",
+  "weights": "data/pretrained/places2_generator.pt",
+  "outdir": "resultados/v6/ffc_l1",
+  "epochs": 2,
+  "device": "cpu",
+  "seed": 42,
+  "crop": 64,
+  "exploratory_unverified": true,
+  "loss_preset": "l1",
+  "weights_sha256": "6668a6bf5e1d92654da5369115562022600112ac3ae31255dd72bc676bd40c48",
+  "manifest_sha256": "bedd967bf7d8844904baa1661ca082d1c40ec43c88cde770bc080ae1f330e154",
+  "torch": "2.4.1+cpu",
+  "loss_weights": {
+    "masked_l1": 1,
+    "std_l1": 0,
+    "edge_l1": 0,
+    "covariance_l1": 0
+  },
+  "scientific_status": "exploratory_unverified_cleanliness"
+}

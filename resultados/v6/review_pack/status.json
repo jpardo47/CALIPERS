@@ -1,0 +1,12 @@
+{
+  "annotation_cases": 24,
+  "reader_cases": 60,
+  "expert_annotations_received": 0,
+  "reader_responses_received": 2,
+  "scope": "reader pilot, legacy reference not certified; CAD grid 128px",
+  "delivery": "Share only reader_only folder, never PRIVATE_reader_key.json",
+  "inter_reader_kappa_manipulation": 0.26991150442477885,
+  "mean_inpaint_detection_rate": 0.5726190476190476,
+  "margin_distortion_delta": 0.2833333333333333,
+  "study_completed": true
+}

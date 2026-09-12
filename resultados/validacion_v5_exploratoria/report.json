@@ -1,0 +1,1107 @@
+{
+  "scope": "exploratory_existing_curated_images_not_independent_test",
+  "clean_verification": "not_independently_verified",
+  "training_overlap": "unknown_for_existing_checkpoint",
+  "clinical_pfpr": "unavailable_without_tissue_and_artifact_annotations",
+  "bbox_convention": "union_of_connected_component_boxes",
+  "seed": 42,
+  "python": "3.11.9",
+  "numpy": "1.26.4",
+  "opencv": "4.10.0",
+  "weights": {
+    "finetuned": {
+      "path": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\mejor_modelo_lama_generator.pt",
+      "sha256": "44ea5201c5b470d8573684103063579b3720356937c836e12191f20889cea423"
+    }
+  },
+  "cases": [
+    {
+      "path": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\ecografias_limpias_para_drive\\images_ALWI_001.png",
+      "sha256": "dd484999af95924d40a280933abe3b692fa75546c37d90bbafeae8ea7ddaa6b8",
+      "seed": 42
+    },
+    {
+      "path": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\ecografias_limpias_para_drive\\images_ALWI_002.png",
+      "sha256": "7b28b004ff8c8e43f4dcaa8a515441c1c324df150732831d91483294025d8634",
+      "seed": 43
+    },
+    {
+      "path": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\ecografias_limpias_para_drive\\images_ALWI_005.png",
+      "sha256": "9c94373ee2dc4b615beef392bf04374bf3cdbca40bf3ed09a6ad59cec994e2f8",
+      "seed": 44
+    }
+  ],
+  "rows": [
+    {
+      "mask_pixels": 1484,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 1.1334293542406575,
+      "variance_ratio": 1.284662101054394,
+      "ks_statistic": 0.19810018620519027,
+      "ks_p_iid_descriptive": 3.264701986795299e-34,
+      "sobel_jump": 4.121371449621671,
+      "glcm": {
+        "1": {
+          "contrast": 0.011838143114904498,
+          "homogeneity": 0.002850749512874784,
+          "entropy": 0.6929738055895793,
+          "correlation": 0.0010383478818243308
+        },
+        "2": {
+          "contrast": 0.16801438776300187,
+          "homogeneity": 0.010695936099766157,
+          "entropy": 0.6366865620340176,
+          "correlation": 0.0015789116697034755
+        },
+        "3": {
+          "contrast": 0.4982463236843213,
+          "homogeneity": 0.03562357456370702,
+          "entropy": 0.5155981945232901,
+          "correlation": 0.00872141711736607
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.0013897824636124323,
+        "1:1": 0.0017951386291205074,
+        "0:2": 0.0033069875892132172,
+        "1:2": 0.0065154348548662755,
+        "0:3": 0.004287352135796563,
+        "1:3": 0.01329178692572619
+      },
+      "ppsnr_db": 24.90261899954886,
+      "pssim": 0.9011129291627001,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_001.png",
+      "method": "telea_bbox",
+      "case": 0,
+      "outside_overlay_changed_pixels": 539,
+      "nonoverlay_frame_change_pct": 0.10403577749854755,
+      "tissue_gain_geometry_pct": 0.0,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 645,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.882714663275655,
+      "variance_ratio": 0.779185176761853,
+      "ks_statistic": 0.33985565356856456,
+      "ks_p_iid_descriptive": 6.3273786883313885e-55,
+      "sobel_jump": 4.6215858480726615,
+      "glcm": {
+        "1": {
+          "contrast": 0.10798806634612454,
+          "homogeneity": 0.03674176435962695,
+          "entropy": 1.8019521349109977,
+          "correlation": 0.003358345835657306
+        },
+        "2": {
+          "contrast": 0.29022866850102097,
+          "homogeneity": 0.05843359648126456,
+          "entropy": 2.02840050950651,
+          "correlation": 0.009160881599653559
+        },
+        "3": {
+          "contrast": 0.5280660522390802,
+          "homogeneity": 0.07645934968847456,
+          "entropy": 2.2535137426403313,
+          "correlation": 0.015717482003601235
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.0024343285301847706,
+        "1:1": 0.00015391463116143367,
+        "0:2": 0.009031071370656396,
+        "1:2": 0.00014074414015252668,
+        "0:3": 0.028094910496706205,
+        "1:3": 0.0010080428331108449
+      },
+      "ppsnr_db": 39.82456883581838,
+      "pssim": 0.9861472871816236,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_001.png",
+      "method": "telea_stroke",
+      "case": 0,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 56.53638814016173,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 645,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8841670461815667,
+      "variance_ratio": 0.7817513655534367,
+      "ks_statistic": 0.33691526329858323,
+      "ks_p_iid_descriptive": 5.828716040986283e-54,
+      "sobel_jump": 4.866033308259598,
+      "glcm": {
+        "1": {
+          "contrast": 0.10017556634612454,
+          "homogeneity": 0.03350515721676983,
+          "entropy": 1.7780275483479242,
+          "correlation": 0.002918256749176118
+        },
+        "2": {
+          "contrast": 0.29022866850102097,
+          "homogeneity": 0.057476658682221515,
+          "entropy": 2.0147592972705013,
+          "correlation": 0.009253118136063998
+        },
+        "3": {
+          "contrast": 0.5247945146163976,
+          "homogeneity": 0.07351496582806027,
+          "entropy": 2.246849062297355,
+          "correlation": 0.0156451303556302
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.0021536209584304133,
+        "1:1": 0.0003955979397488596,
+        "0:2": 0.008478257932887923,
+        "1:2": 0.0005158475778891392,
+        "0:3": 0.027663254184378427,
+        "1:3": 0.0007882325122211542
+      },
+      "ppsnr_db": 39.34932795878359,
+      "pssim": 0.9845847342963643,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_001.png",
+      "method": "acoustic_telea",
+      "case": 0,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 56.53638814016173,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 193,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.10232558139534884,
+      "std_ratio": 0.6373509341131033,
+      "variance_ratio": 0.4062162132148453,
+      "ks_statistic": 0.4831988220422565,
+      "ks_p_iid_descriptive": 5.558901450679441e-36,
+      "sobel_jump": 99.03813788974507,
+      "glcm": {
+        "1": {
+          "contrast": 1.9501170067421483,
+          "homogeneity": 0.06106967056137658,
+          "entropy": 1.7711915569237409,
+          "correlation": 0.0014718898224851396
+        },
+        "2": {
+          "contrast": 8.475074666935132,
+          "homogeneity": 0.13087511356686632,
+          "entropy": 2.042822114678457,
+          "correlation": 0.18525168930382663
+        },
+        "3": {
+          "contrast": 14.841358346714,
+          "homogeneity": 0.17720230879265553,
+          "entropy": 2.4357865346313172,
+          "correlation": 0.37423467412695033
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.047948789877467424,
+        "1:1": 0.01321657237210827,
+        "0:2": 0.29962897718344517,
+        "1:2": 0.021235997271885854,
+        "0:3": 0.5966687426344961,
+        "1:3": 0.020109506075786987
+      },
+      "ppsnr_db": 7.104127564379335,
+      "pssim": 0.08565559901683621,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_001.png",
+      "method": "detector_acoustic_telea",
+      "case": 0,
+      "outside_overlay_changed_pixels": 127,
+      "nonoverlay_frame_change_pct": 0.024513068167561297,
+      "tissue_gain_geometry_pct": 86.9946091644205,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 193,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.10232558139534884,
+      "std_ratio": 0.16248599130271218,
+      "variance_ratio": 0.02640169736962506,
+      "ks_statistic": 0.9535299374441466,
+      "ks_p_iid_descriptive": 2.424474284055958e-220,
+      "sobel_jump": 314.30755614246146,
+      "glcm": {
+        "1": {
+          "contrast": 2.4341464907716324,
+          "homogeneity": 0.19694190643361242,
+          "entropy": 3.850824185246375,
+          "correlation": 0.45073884681260196
+        },
+        "2": {
+          "contrast": 9.353862545723011,
+          "homogeneity": 0.32187333103567195,
+          "entropy": 4.387518040467803,
+          "correlation": 0.20091755761382735
+        },
+        "3": {
+          "contrast": 15.731905610395591,
+          "homogeneity": 0.386668552236072,
+          "entropy": 4.614746340772293,
+          "correlation": 0.0640690643395267
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.7135188826638922,
+        "1:1": 0.1634982701200678,
+        "0:2": 0.024343164641159598,
+        "1:2": 0.243684895396873,
+        "0:3": 0.5842726052983331,
+        "1:3": 0.5302176461738746
+      },
+      "ppsnr_db": 6.283711511194335,
+      "pssim": 0.0234080256708141,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_001.png",
+      "method": "selective_production",
+      "case": 0,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 86.9946091644205,
+      "status": "abstained"
+    },
+    {
+      "mask_pixels": 645,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8712165674203868,
+      "variance_ratio": 0.7590183073477613,
+      "ks_statistic": 0.3620689655172414,
+      "ks_p_iid_descriptive": 1.625925256306109e-62,
+      "sobel_jump": 6.11087539103392,
+      "glcm": {
+        "1": {
+          "contrast": 0.10184967348898168,
+          "homogeneity": 0.03501185364534121,
+          "entropy": 1.7285868877286812,
+          "correlation": 0.002945478437567095
+        },
+        "2": {
+          "contrast": 0.28305163500819797,
+          "homogeneity": 0.06345751992624049,
+          "entropy": 1.9787483525027765,
+          "correlation": 0.008466743801116006
+        },
+        "3": {
+          "contrast": 0.47244991265347497,
+          "homogeneity": 0.07320705640474878,
+          "entropy": 2.202837943973293,
+          "correlation": 0.010837083479621867
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.001598391667546939,
+        "1:1": 2.7030101718783506e-05,
+        "0:2": 0.00809735364658326,
+        "1:2": 0.0003245227346034829,
+        "0:3": 0.024669749911829686,
+        "1:3": 0.00016820007586260122
+      },
+      "ppsnr_db": 38.39379842630229,
+      "pssim": 0.842116067459095,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_001.png",
+      "method": "ffc_finetuned",
+      "case": 0,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 56.53638814016173,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 645,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8712165674203868,
+      "variance_ratio": 0.7590183073477613,
+      "ks_statistic": 0.3620689655172414,
+      "ks_p_iid_descriptive": 1.625925256306109e-62,
+      "sobel_jump": 6.11087539103392,
+      "glcm": {
+        "1": {
+          "contrast": 0.10184967348898168,
+          "homogeneity": 0.03501185364534121,
+          "entropy": 1.7285868877286812,
+          "correlation": 0.002945478437567095
+        },
+        "2": {
+          "contrast": 0.28305163500819797,
+          "homogeneity": 0.06345751992624049,
+          "entropy": 1.9787483525027765,
+          "correlation": 0.008466743801116006
+        },
+        "3": {
+          "contrast": 0.47244991265347497,
+          "homogeneity": 0.07320705640474878,
+          "entropy": 2.202837943973293,
+          "correlation": 0.010837083479621867
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.001598391667546939,
+        "1:1": 2.7030101718783506e-05,
+        "0:2": 0.00809735364658326,
+        "1:2": 0.0003245227346034829,
+        "0:3": 0.024669749911829686,
+        "1:3": 0.00016820007586260122
+      },
+      "ppsnr_db": 38.39379842630229,
+      "pssim": 0.842116067459095,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_001.png",
+      "method": "ffc_acoustic",
+      "case": 0,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 56.53638814016173,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 1202,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.9365092474512571,
+      "variance_ratio": 0.8770495705617198,
+      "ks_statistic": 0.23201861226296205,
+      "ks_p_iid_descriptive": 5.237788004325329e-40,
+      "sobel_jump": 5.274295356196649,
+      "glcm": {
+        "1": {
+          "contrast": 0.16535143397278745,
+          "homogeneity": 0.06069422348113329,
+          "entropy": 1.4606647638702555,
+          "correlation": 0.008359503482254338
+        },
+        "2": {
+          "contrast": 0.4411074467322667,
+          "homogeneity": 0.08856245839076715,
+          "entropy": 1.5844095902609499,
+          "correlation": 0.022539424545349518
+        },
+        "3": {
+          "contrast": 0.7097437811320719,
+          "homogeneity": 0.09430114698592895,
+          "entropy": 1.6075095810818523,
+          "correlation": 0.03595590297514162
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.008143039575903122,
+        "1:1": 0.0007926054100206859,
+        "0:2": 0.027158651414355917,
+        "1:2": 0.0027277848129872995,
+        "0:3": 0.048220015283697015,
+        "1:3": 0.005356986290920851
+      },
+      "ppsnr_db": 30.730616984628124,
+      "pssim": 0.9404250746516962,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_002.png",
+      "method": "telea_bbox",
+      "case": 1,
+      "outside_overlay_changed_pixels": 315,
+      "nonoverlay_frame_change_pct": 0.06079449722950791,
+      "tissue_gain_geometry_pct": 0.0,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 597,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8904331391266379,
+      "variance_ratio": 0.7928711752549185,
+      "ks_statistic": 0.3219809509836286,
+      "ks_p_iid_descriptive": 1.0599687110412661e-45,
+      "sobel_jump": 7.083995966376366,
+      "glcm": {
+        "1": {
+          "contrast": 0.15939604573387506,
+          "homogeneity": 0.05939857358757883,
+          "entropy": 2.0346226535590244,
+          "correlation": 0.0071927114940228964
+        },
+        "2": {
+          "contrast": 0.4939140141438178,
+          "homogeneity": 0.09811524783291792,
+          "entropy": 2.3223053090516186,
+          "correlation": 0.025155186104204197
+        },
+        "3": {
+          "contrast": 0.936233331672627,
+          "homogeneity": 0.13698917819544854,
+          "entropy": 2.6218760325889656,
+          "correlation": 0.049295620651665484
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.006629742381119463,
+        "1:1": 0.0006052101577823654,
+        "0:2": 0.02448914510799427,
+        "1:2": 0.00022258557639354137,
+        "0:3": 0.057400001942175205,
+        "1:3": 0.003062356594879967
+      },
+      "ppsnr_db": 34.695678564326435,
+      "pssim": 0.9793026751587293,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_002.png",
+      "method": "telea_stroke",
+      "case": 1,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 50.33277870216306,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 597,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8934723816520956,
+      "variance_ratio": 0.7982928967750681,
+      "ks_statistic": 0.3219809509836286,
+      "ks_p_iid_descriptive": 1.0599687110412661e-45,
+      "sobel_jump": 7.371845511182749,
+      "glcm": {
+        "1": {
+          "contrast": 0.1557989234317168,
+          "homogeneity": 0.059038861357362915,
+          "entropy": 2.0281636687195874,
+          "correlation": 0.006903493701125307
+        },
+        "2": {
+          "contrast": 0.487122842666738,
+          "homogeneity": 0.09777568925906399,
+          "entropy": 2.314594248636004,
+          "correlation": 0.024589297621542272
+        },
+        "3": {
+          "contrast": 0.9350825836864359,
+          "homogeneity": 0.13641380420235294,
+          "entropy": 2.6226416363480727,
+          "correlation": 0.0492077145849642
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.005688867839148459,
+        "1:1": 0.0012856505044757105,
+        "0:2": 0.022287624299021536,
+        "1:2": 0.0011356380893939866,
+        "0:3": 0.05625417789115206,
+        "1:3": 0.0025123130698172513
+      },
+      "ppsnr_db": 34.35300785542093,
+      "pssim": 0.9770075079134024,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_002.png",
+      "method": "acoustic_telea",
+      "case": 1,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 50.33277870216306,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 391,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.07705192629815745,
+      "std_ratio": 0.49409054523075013,
+      "variance_ratio": 0.24412546688641995,
+      "ks_statistic": 0.5663214592843022,
+      "ks_p_iid_descriptive": 1.2521869030139088e-95,
+      "sobel_jump": 61.42306315099129,
+      "glcm": {
+        "1": {
+          "contrast": 0.606025241061465,
+          "homogeneity": 0.15991715293540487,
+          "entropy": 2.904438005110347,
+          "correlation": 0.07911839432560808
+        },
+        "2": {
+          "contrast": 2.2074254191703666,
+          "homogeneity": 0.25017837870412185,
+          "entropy": 3.2577478205426007,
+          "correlation": 0.022245233795682995
+        },
+        "3": {
+          "contrast": 4.182543927544101,
+          "homogeneity": 0.2959588392975603,
+          "entropy": 3.5454938578785047,
+          "correlation": 0.08382830180041001
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.002521852159404925,
+        "1:1": 0.030833038764985887,
+        "0:2": 0.11347851095368444,
+        "1:2": 0.07751512592118082,
+        "0:3": 0.3037808320676776,
+        "1:3": 0.13046975079745848
+      },
+      "ppsnr_db": 6.884958605461139,
+      "pssim": 0.10072729505167567,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_002.png",
+      "method": "detector_acoustic_telea",
+      "case": 1,
+      "outside_overlay_changed_pixels": 345,
+      "nonoverlay_frame_change_pct": 0.0665844493466039,
+      "tissue_gain_geometry_pct": 67.47088186356073,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 391,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.07705192629815745,
+      "std_ratio": 0.15605775684223802,
+      "variance_ratio": 0.02435402347063109,
+      "ks_statistic": 0.9369931378665003,
+      "ks_p_iid_descriptive": 0.0,
+      "sobel_jump": 181.83516095868103,
+      "glcm": {
+        "1": {
+          "contrast": 0.6853760075177319,
+          "homogeneity": 0.19526431253865106,
+          "entropy": 3.7603137915185103,
+          "correlation": 0.5454190423456551
+        },
+        "2": {
+          "contrast": 2.444104477410763,
+          "homogeneity": 0.33134318663472906,
+          "entropy": 4.244905123617421,
+          "correlation": 0.42891831226184723
+        },
+        "3": {
+          "contrast": 4.462917759319803,
+          "homogeneity": 0.3823139794844761,
+          "entropy": 4.271787495277345,
+          "correlation": 0.34636212934987126
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.6920095945835023,
+        "1:1": 0.050273146216355924,
+        "0:2": 0.7376637506912438,
+        "1:2": 0.12338630059931599,
+        "0:3": 0.47608429451659295,
+        "1:3": 0.2576329663370308
+      },
+      "ppsnr_db": 6.39378389366858,
+      "pssim": 0.035027498264971035,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_002.png",
+      "method": "selective_production",
+      "case": 1,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 67.47088186356073,
+      "status": "abstained"
+    },
+    {
+      "mask_pixels": 597,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.853402195524391,
+      "variance_ratio": 0.7282953073258509,
+      "ks_statistic": 0.38321167883211676,
+      "ks_p_iid_descriptive": 3.138604149879501e-65,
+      "sobel_jump": 9.737212379854494,
+      "glcm": {
+        "1": {
+          "contrast": 0.09764544621349139,
+          "homogeneity": 0.047228309798609924,
+          "entropy": 1.8820549139809075,
+          "correlation": 0.0012946850382796748
+        },
+        "2": {
+          "contrast": 0.31225017713193326,
+          "homogeneity": 0.08152681279846263,
+          "entropy": 2.145506852593659,
+          "correlation": 0.008584647692074565
+        },
+        "3": {
+          "contrast": 0.6289836193596234,
+          "homogeneity": 0.1094321484790739,
+          "entropy": 2.4166274541420467,
+          "correlation": 0.019010255748763805
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.00040291342368614647,
+        "1:1": 9.772200188495894e-06,
+        "0:2": 0.01332512308576661,
+        "1:2": 0.00038470345919239257,
+        "0:3": 0.04448820707736356,
+        "1:3": 0.0014800824978757898
+      },
+      "ppsnr_db": 33.13674224469845,
+      "pssim": 0.8092973171589783,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_002.png",
+      "method": "ffc_finetuned",
+      "case": 1,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 50.33277870216306,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 597,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.853402195524391,
+      "variance_ratio": 0.7282953073258509,
+      "ks_statistic": 0.38321167883211676,
+      "ks_p_iid_descriptive": 3.138604149879501e-65,
+      "sobel_jump": 9.737212379854494,
+      "glcm": {
+        "1": {
+          "contrast": 0.09764544621349139,
+          "homogeneity": 0.047228309798609924,
+          "entropy": 1.8820549139809075,
+          "correlation": 0.0012946850382796748
+        },
+        "2": {
+          "contrast": 0.31225017713193326,
+          "homogeneity": 0.08152681279846263,
+          "entropy": 2.145506852593659,
+          "correlation": 0.008584647692074565
+        },
+        "3": {
+          "contrast": 0.6289836193596234,
+          "homogeneity": 0.1094321484790739,
+          "entropy": 2.4166274541420467,
+          "correlation": 0.019010255748763805
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.00040291342368614647,
+        "1:1": 9.772200188495894e-06,
+        "0:2": 0.01332512308576661,
+        "1:2": 0.00038470345919239257,
+        "0:3": 0.04448820707736356,
+        "1:3": 0.0014800824978757898
+      },
+      "ppsnr_db": 33.13674224469845,
+      "pssim": 0.8092973171589783,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_002.png",
+      "method": "ffc_acoustic",
+      "case": 1,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 50.33277870216306,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 1316,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 1.0167492355708658,
+      "variance_ratio": 1.03377900803394,
+      "ks_statistic": 0.10868348816955403,
+      "ks_p_iid_descriptive": 1.8212319051950898e-09,
+      "sobel_jump": 6.478796285558974,
+      "glcm": {
+        "1": {
+          "contrast": 0.09651502298899794,
+          "homogeneity": 0.04744997448238597,
+          "entropy": 0.8729674308814723,
+          "correlation": 0.011202493976864014
+        },
+        "2": {
+          "contrast": 0.18245286440337385,
+          "homogeneity": 0.06886464390103397,
+          "entropy": 0.9890608643777359,
+          "correlation": 0.021156888206890434
+        },
+        "3": {
+          "contrast": 0.25103302352345624,
+          "homogeneity": 0.07444972343970135,
+          "entropy": 1.0374235903865174,
+          "correlation": 0.029469317567241915
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.008196229358438,
+        "1:1": 0.0006940331330188565,
+        "0:2": 0.02378950740176433,
+        "1:2": 0.0029890712522859797,
+        "0:3": 0.03582183394630434,
+        "1:3": 0.00675449731664679
+      },
+      "ppsnr_db": 33.864564851889895,
+      "pssim": 0.863761091608489,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_005.png",
+      "method": "telea_bbox",
+      "case": 2,
+      "outside_overlay_changed_pixels": 681,
+      "nonoverlay_frame_change_pct": 0.13143800121594626,
+      "tissue_gain_geometry_pct": 0.0,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 621,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.9396492732715449,
+      "variance_ratio": 0.8829407567597425,
+      "ks_statistic": 0.24581761918576545,
+      "ks_p_iid_descriptive": 2.6344207474009034e-27,
+      "sobel_jump": 7.07102786715483,
+      "glcm": {
+        "1": {
+          "contrast": 0.09330679718079307,
+          "homogeneity": 0.04518297417243955,
+          "entropy": 1.3037468046107774,
+          "correlation": 0.008925005147392806
+        },
+        "2": {
+          "contrast": 0.18530216805392605,
+          "homogeneity": 0.06956497549571727,
+          "entropy": 1.4817110014286508,
+          "correlation": 0.01741827673065721
+        },
+        "3": {
+          "contrast": 0.2728595709351234,
+          "homogeneity": 0.08495162043105531,
+          "entropy": 1.6530649603596679,
+          "correlation": 0.02380385097012283
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.008238631775199456,
+        "1:1": 0.00019787895213729811,
+        "0:2": 0.023903612354719717,
+        "1:2": 0.0034701490645477895,
+        "0:3": 0.03511938243624546,
+        "1:3": 0.008044369793312578
+      },
+      "ppsnr_db": 36.499074583462146,
+      "pssim": 0.928825564257342,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_005.png",
+      "method": "telea_stroke",
+      "case": 2,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 52.81155015197568,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 621,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.9395010970651633,
+      "variance_ratio": 0.8826623113866453,
+      "ks_statistic": 0.2408323377786427,
+      "ks_p_iid_descriptive": 3.2593029114518746e-26,
+      "sobel_jump": 7.3372457987847435,
+      "glcm": {
+        "1": {
+          "contrast": 0.050606277850152565,
+          "homogeneity": 0.023832714507119213,
+          "entropy": 1.145989956110895,
+          "correlation": 0.0038605796271103943
+        },
+        "2": {
+          "contrast": 0.15090413365589167,
+          "homogeneity": 0.05236595829669999,
+          "entropy": 1.3604971223695,
+          "correlation": 0.013070186811884876
+        },
+        "3": {
+          "contrast": 0.24721854529409776,
+          "homogeneity": 0.07213110761054242,
+          "entropy": 1.5587608858396949,
+          "correlation": 0.020480336454173576
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.006984232859756134,
+        "1:1": 0.0011409653245222362,
+        "0:2": 0.022006004044641148,
+        "1:2": 0.0021914615224324363,
+        "0:3": 0.03297942975064172,
+        "1:3": 0.0060257806863902585
+      },
+      "ppsnr_db": 35.90686462890035,
+      "pssim": 0.9174788539368445,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_005.png",
+      "method": "acoustic_telea",
+      "case": 2,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 52.81155015197568,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 141,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.11594202898550725,
+      "std_ratio": 0.7417533133122993,
+      "variance_ratio": 0.5501979778097741,
+      "ks_statistic": 0.5213112933894047,
+      "ks_p_iid_descriptive": 6.952550337744823e-32,
+      "sobel_jump": 105.74128556962675,
+      "glcm": {
+        "1": {
+          "contrast": 0.36059397467261656,
+          "homogeneity": 0.0747272951294683,
+          "entropy": 1.6293338656809073,
+          "correlation": 0.0009517612345388837
+        },
+        "2": {
+          "contrast": 1.4354278254525907,
+          "homogeneity": 0.14351411933826863,
+          "entropy": 1.676762133742821,
+          "correlation": 0.03551316009999117
+        },
+        "3": {
+          "contrast": 2.3548459894845513,
+          "homogeneity": 0.13278901587094916,
+          "entropy": 1.6299567488788673,
+          "correlation": 0.06136632176055079
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.01115997788411649,
+        "1:1": 0.004213712360974231,
+        "0:2": 0.056339144321028045,
+        "1:2": 0.0024558758760901966,
+        "0:3": 0.09894594975498716,
+        "1:3": 0.003062897403461884
+      },
+      "ppsnr_db": 8.336237026702202,
+      "pssim": 0.0482025555138663,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_005.png",
+      "method": "detector_acoustic_telea",
+      "case": 2,
+      "outside_overlay_changed_pixels": 69,
+      "nonoverlay_frame_change_pct": 0.013317506731131119,
+      "tissue_gain_geometry_pct": 89.28571428571429,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 141,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.11594202898550725,
+      "std_ratio": 0.1836341796175271,
+      "variance_ratio": 0.033721511923802204,
+      "ks_statistic": 0.9735812133072407,
+      "ks_p_iid_descriptive": 4.151697211384604e-196,
+      "sobel_jump": 359.81052662801505,
+      "glcm": {
+        "1": {
+          "contrast": 0.38004922759090454,
+          "homogeneity": 0.07978566088822314,
+          "entropy": 2.4374581732192633,
+          "correlation": 0.3233212305732529
+        },
+        "2": {
+          "contrast": 1.4857071550615293,
+          "homogeneity": 0.16194987352821266,
+          "entropy": 2.7148719279764295,
+          "correlation": 0.2982783837522931
+        },
+        "3": {
+          "contrast": 2.58093294600629,
+          "homogeneity": 0.2145281463057317,
+          "entropy": 2.8146512988471875,
+          "correlation": 0.2344385879655535
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.46109646119304104,
+        "1:1": 0.14091340398531305,
+        "0:2": 0.2774391354425183,
+        "1:2": 0.20154139103507418,
+        "0:3": 0.22425253123013733,
+        "1:3": 0.4326228735533265
+      },
+      "ppsnr_db": 7.118735696302451,
+      "pssim": 0.012975754896443193,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_005.png",
+      "method": "selective_production",
+      "case": 2,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 89.28571428571429,
+      "status": "abstained"
+    },
+    {
+      "mask_pixels": 621,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.9567178960471033,
+      "variance_ratio": 0.915309132616796,
+      "ks_statistic": 0.2750193555052222,
+      "ks_p_iid_descriptive": 3.4963649229563616e-34,
+      "sobel_jump": 9.007401284614295,
+      "glcm": {
+        "1": {
+          "contrast": 0.04541297144507467,
+          "homogeneity": 0.021236061304580334,
+          "entropy": 1.2527801547065671,
+          "correlation": 0.003434744201964768
+        },
+        "2": {
+          "contrast": 0.1484471311988892,
+          "homogeneity": 0.052120258050999735,
+          "entropy": 1.5394984730231651,
+          "correlation": 0.013102975849851317
+        },
+        "3": {
+          "contrast": 0.24721854529409776,
+          "homogeneity": 0.07480669289482345,
+          "entropy": 1.7994897182908505,
+          "correlation": 0.020639892987223685
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.002637768439866073,
+        "1:1": 0.00024537230179189073,
+        "0:2": 0.0141643120960816,
+        "1:2": 0.0016076846037186288,
+        "0:3": 0.02739573631878356,
+        "1:3": 0.00553805548502373
+      },
+      "ppsnr_db": 37.36060805680089,
+      "pssim": 0.9330533347140885,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_005.png",
+      "method": "ffc_finetuned",
+      "case": 2,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 52.81155015197568,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 621,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.956189139091851,
+      "variance_ratio": 0.9142976697172152,
+      "ks_statistic": 0.2750193555052222,
+      "ks_p_iid_descriptive": 3.4963649229563616e-34,
+      "sobel_jump": 9.069872985466965,
+      "glcm": {
+        "1": {
+          "contrast": 0.03791152885996216,
+          "homogeneity": 0.017485340012024175,
+          "entropy": 1.226488093906823,
+          "correlation": 0.0025187579786276615
+        },
+        "2": {
+          "contrast": 0.13288611563787364,
+          "homogeneity": 0.045322551253292986,
+          "entropy": 1.4969935686127354,
+          "correlation": 0.011066665760450345
+        },
+        "3": {
+          "contrast": 0.23384061887269308,
+          "homogeneity": 0.07079331496840191,
+          "entropy": 1.7582636224909542,
+          "correlation": 0.01865819596419227
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.0018796949623791637,
+        "1:1": 0.00040013800800065,
+        "0:2": 0.01252615438090221,
+        "1:2": 0.0012111696400450844,
+        "0:3": 0.025733516377958954,
+        "1:3": 0.005035122884266219
+      },
+      "ppsnr_db": 37.22737667361481,
+      "pssim": 0.9316124443152538,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "images_ALWI_005.png",
+      "method": "ffc_acoustic",
+      "case": 2,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 52.81155015197568,
+      "status": "ungated_research"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "case_id": "a75088a874f2",
+    "variant": "inpaint",
+    "patient_id": "67",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0067-r.png"
+  },
+  {
+    "case_id": "6601cb36842e",
+    "variant": "reference",
+    "patient_id": "76",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0076-r.png"
+  },
+  {
+    "case_id": "ccdc811162a8",
+    "variant": "reference",
+    "patient_id": "140",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0140-r.png"
+  },
+  {
+    "case_id": "2f01d7c398b9",
+    "variant": "reference",
+    "patient_id": "274",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0274-l.png"
+  },
+  {
+    "case_id": "e2cf5eacb70a",
+    "variant": "reference",
+    "patient_id": "238",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0238-r.png"
+  },
+  {
+    "case_id": "8224613519e9",
+    "variant": "reference",
+    "patient_id": "83",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0083-r.png"
+  },
+  {
+    "case_id": "16257e75a74a",
+    "variant": "inpaint",
+    "patient_id": "124",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0124-r.png"
+  },
+  {
+    "case_id": "780d69f8bcb6",
+    "variant": "inpaint",
+    "patient_id": "341",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0341-r.png"
+  },
+  {
+    "case_id": "56d88762359c",
+    "variant": "inpaint",
+    "patient_id": "13",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0013-r.png"
+  },
+  {
+    "case_id": "0afe885efb38",
+    "variant": "reference",
+    "patient_id": "155",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0155-r.png"
+  },
+  {
+    "case_id": "7b1e07354b93",
+    "variant": "reference",
+    "patient_id": "152",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0152-l.png"
+  },
+  {
+    "case_id": "44ad4540bf6f",
+    "variant": "inpaint",
+    "patient_id": "179",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0179-r.png"
+  },
+  {
+    "case_id": "12528bc7fd1a",
+    "variant": "inpaint",
+    "patient_id": "130",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0130-r.png"
+  },
+  {
+    "case_id": "beed8048f167",
+    "variant": "reference",
+    "patient_id": "303",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0303-l.png"
+  },
+  {
+    "case_id": "c50671b370c6",
+    "variant": "inpaint",
+    "patient_id": "246",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0246-l.png"
+  },
+  {
+    "case_id": "d1389e599eb5",
+    "variant": "reference",
+    "patient_id": "192",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0192-l.png"
+  },
+  {
+    "case_id": "88c9b9eea3cf",
+    "variant": "reference",
+    "patient_id": "211",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0211-l.png"
+  },
+  {
+    "case_id": "bfd86af8526e",
+    "variant": "inpaint",
+    "patient_id": "263",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0263-r.png"
+  },
+  {
+    "case_id": "aaac72b20de5",
+    "variant": "inpaint",
+    "patient_id": "195",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0195-l.png"
+  },
+  {
+    "case_id": "ff15a7fd9131",
+    "variant": "inpaint",
+    "patient_id": "236",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0236-l.png"
+  },
+  {
+    "case_id": "a68bde22eb5a",
+    "variant": "inpaint",
+    "patient_id": "267",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0267-l.png"
+  },
+  {
+    "case_id": "3dfc5a5a5f78",
+    "variant": "inpaint",
+    "patient_id": "287",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0287-r.png"
+  },
+  {
+    "case_id": "18946e532b8f",
+    "variant": "reference",
+    "patient_id": "281",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0281-r.png"
+  },
+  {
+    "case_id": "9736efcdc99c",
+    "variant": "inpaint",
+    "patient_id": "343",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0343-r.png"
+  },
+  {
+    "case_id": "ff2edef6575a",
+    "variant": "reference",
+    "patient_id": "232",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0232-r.png"
+  },
+  {
+    "case_id": "63ea324768fb",
+    "variant": "reference",
+    "patient_id": "976",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0976-l.png"
+  },
+  {
+    "case_id": "f302d4462d1a",
+    "variant": "inpaint",
+    "patient_id": "239",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0239-l.png"
+  },
+  {
+    "case_id": "66c8dd0f50ae",
+    "variant": "inpaint",
+    "patient_id": "133",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0133-r.png"
+  },
+  {
+    "case_id": "698f6463041f",
+    "variant": "reference",
+    "patient_id": "176",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0176-r.png"
+  },
+  {
+    "case_id": "f87b7a32f018",
+    "variant": "inpaint",
+    "patient_id": "271",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0271-l.png"
+  },
+  {
+    "case_id": "4d1e3324569b",
+    "variant": "reference",
+    "patient_id": "91",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0091-r.png"
+  },
+  {
+    "case_id": "7e6ee7c054b8",
+    "variant": "reference",
+    "patient_id": "144",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0144-r.png"
+  },
+  {
+    "case_id": "ceb6183becc4",
+    "variant": "reference",
+    "patient_id": "72",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0072-r.png"
+  },
+  {
+    "case_id": "647820f0aa6e",
+    "variant": "reference",
+    "patient_id": "165",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0165-r.png"
+  },
+  {
+    "case_id": "f42e05c73e1c",
+    "variant": "inpaint",
+    "patient_id": "160",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0160-l.png"
+  },
+  {
+    "case_id": "0f2a22d9ad66",
+    "variant": "reference",
+    "patient_id": "852",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0852-s.png"
+  },
+  {
+    "case_id": "c50a4fbe8508",
+    "variant": "reference",
+    "patient_id": "234",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0234-l.png"
+  },
+  {
+    "case_id": "93d4821dee79",
+    "variant": "inpaint",
+    "patient_id": "178",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0178-l.png"
+  },
+  {
+    "case_id": "e8ee90e9363e",
+    "variant": "inpaint",
+    "patient_id": "214",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0214-r.png"
+  },
+  {
+    "case_id": "41d540eeee6e",
+    "variant": "inpaint",
+    "patient_id": "280",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0280-r.png"
+  },
+  {
+    "case_id": "ec8c0127bbd2",
+    "variant": "reference",
+    "patient_id": "167",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0167-l.png"
+  },
+  {
+    "case_id": "9de29ffa952c",
+    "variant": "inpaint",
+    "patient_id": "854",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0854-s.png"
+  },
+  {
+    "case_id": "a2114b76ea14",
+    "variant": "inpaint",
+    "patient_id": "851",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0851-s.png"
+  },
+  {
+    "case_id": "cd5d174bb257",
+    "variant": "reference",
+    "patient_id": "857",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0857-l.png"
+  },
+  {
+    "case_id": "a466f20d9181",
+    "variant": "inpaint",
+    "patient_id": "73",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0073-r.png"
+  },
+  {
+    "case_id": "0faca11d12b5",
+    "variant": "reference",
+    "patient_id": "856",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0856-l.png"
+  },
+  {
+    "case_id": "9df2ecb57a5b",
+    "variant": "reference",
+    "patient_id": "735",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0735-s.png"
+  },
+  {
+    "case_id": "e2d0a98a7abd",
+    "variant": "inpaint",
+    "patient_id": "156",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0156-l.png"
+  },
+  {
+    "case_id": "6650a87bb2f1",
+    "variant": "inpaint",
+    "patient_id": "249",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0249-l.png"
+  },
+  {
+    "case_id": "9fa5da37360c",
+    "variant": "reference",
+    "patient_id": "173",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0173-l.png"
+  },
+  {
+    "case_id": "6f89fba7b840",
+    "variant": "reference",
+    "patient_id": "260",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0260-l.png"
+  },
+  {
+    "case_id": "8845b78026a8",
+    "variant": "inpaint",
+    "patient_id": "229",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0229-l.png"
+  },
+  {
+    "case_id": "fe419daad7d8",
+    "variant": "reference",
+    "patient_id": "68",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0068-r.png"
+  },
+  {
+    "case_id": "13dbcd64d7d3",
+    "variant": "inpaint",
+    "patient_id": "44",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0044-r.png"
+  },
+  {
+    "case_id": "447c7df6defa",
+    "variant": "reference",
+    "patient_id": "255",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0255-l.png"
+  },
+  {
+    "case_id": "2a11f56a0caa",
+    "variant": "inpaint",
+    "patient_id": "98",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0098-r.png"
+  },
+  {
+    "case_id": "730f8b6a0903",
+    "variant": "reference",
+    "patient_id": "296",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0296-r.png"
+  },
+  {
+    "case_id": "0c0ccf08d1ba",
+    "variant": "inpaint",
+    "patient_id": "250",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0250-r.png"
+  },
+  {
+    "case_id": "7ff93fd8f522",
+    "variant": "inpaint",
+    "patient_id": "55",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0055-r.png"
+  },
+  {
+    "case_id": "85a7c8da8813",
+    "variant": "reference",
+    "patient_id": "4",
+    "original": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\data\\bases_datos_originales\\BUS_BRA\\BUSBRA\\BUSBRA\\Images\\bus_0004-r.png"
+  }
+]

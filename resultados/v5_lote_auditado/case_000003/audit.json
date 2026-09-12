@@ -1,0 +1,23 @@
+{
+  "policy": {
+    "max_coverage": 0.08,
+    "min_std_ratio": 0.8,
+    "max_std_ratio": 1.2,
+    "max_sobel_jump": 60.0,
+    "protected_margin_px": 3,
+    "min_ring_pixels": 32
+  },
+  "status": "unchanged",
+  "reasons": [
+    "no_candidate_not_proof_of_cleanliness"
+  ],
+  "backend": "telea_acoustic",
+  "candidate_pixels": 0,
+  "clinical_validation": false,
+  "inputs": {
+    "image": {
+      "path": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\bus-cleaning-main\\sample_data\\image_4.png",
+      "sha256": "7146e8c0eda00cea55cedf3a58fccbb71387e901f58df0a696eb111c9a3743ce"
+    }
+  }
+}

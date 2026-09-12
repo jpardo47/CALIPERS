@@ -1,0 +1,6 @@
+case,image,status,reason
+0,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\bus-cleaning-main\sample_data\image_1.png,abstained,independent_artifact_support_required
+1,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\bus-cleaning-main\sample_data\image_2.png,abstained,independent_artifact_support_required
+2,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\bus-cleaning-main\sample_data\image_3.png,abstained,independent_artifact_support_required
+3,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\bus-cleaning-main\sample_data\image_4.png,unchanged,no_candidate_not_proof_of_cleanliness
+4,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\bus-cleaning-main\sample_data\image_5.png,abstained,independent_artifact_support_required

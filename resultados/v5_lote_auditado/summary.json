@@ -1,0 +1,11 @@
+{
+  "manifest_sha256": "d385d14cbe99cad9e02e1effa83f8eecfb2c6a43aafe332f68288499bf503b89",
+  "images": 5,
+  "weights_sha256": null,
+  "counts": {
+    "accepted_research": 0,
+    "abstained": 4,
+    "unchanged": 1,
+    "error": 0
+  }
+}

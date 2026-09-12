@@ -1,0 +1,14 @@
+{
+  "cache_manifest_sha256": "a43c78ca0b589beac0364a44634c0524aa1c4ee5b9cb1ad26893c2c32ad43d3d",
+  "epochs": 12,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "scope": "exploratory_synthetic_confound_not_real_annotation_validation",
+  "classifier": "small_CNN_from_scratch",
+  "segmentation_units": "128px letterbox, not mm",
+  "cleanliness_verified": false,
+  "torch": "2.4.1+cpu"
+}

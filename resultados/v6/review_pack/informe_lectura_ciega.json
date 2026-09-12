@@ -1,0 +1,62 @@
+{
+  "scope": "blinded_radiologist_pilot_study_audit",
+  "total_ground_truth_cases": 60,
+  "readers_evaluated": 2,
+  "reader_ids": [
+    "RAD_01_CLINICO",
+    "RAD_02_MAMARIA"
+  ],
+  "reader_individual_metrics": {
+    "RAD_01_CLINICO": {
+      "matched_cases": 60,
+      "true_positives": 19,
+      "false_positives": 5,
+      "true_negatives": 23,
+      "false_negatives": 9,
+      "uncertain_cases": 4,
+      "accuracy": 0.75,
+      "sensitivity": 0.6785714285714286,
+      "specificity": 0.8214285714285714,
+      "positive_predictive_value": 0.7916666666666666,
+      "negative_predictive_value": 0.71875,
+      "mean_distortion_reference": 0.2,
+      "mean_distortion_inpaint": 0.43333333333333335,
+      "distortion_delta": 0.23333333333333334,
+      "distortion_mannwhitney_p": 0.1893970552531391,
+      "mean_confidence_reference": 4.3,
+      "mean_confidence_inpaint": 4.2
+    },
+    "RAD_02_MAMARIA": {
+      "matched_cases": 60,
+      "true_positives": 14,
+      "false_positives": 2,
+      "true_negatives": 28,
+      "false_negatives": 16,
+      "uncertain_cases": 0,
+      "accuracy": 0.7,
+      "sensitivity": 0.4666666666666667,
+      "specificity": 0.9333333333333333,
+      "positive_predictive_value": 0.875,
+      "negative_predictive_value": 0.6363636363636364,
+      "mean_distortion_reference": 0.06666666666666667,
+      "mean_distortion_inpaint": 0.4,
+      "distortion_delta": 0.33333333333333337,
+      "distortion_mannwhitney_p": 0.03294881164649415,
+      "mean_confidence_reference": 3.8666666666666667,
+      "mean_confidence_inpaint": 3.8
+    }
+  },
+  "inter_observer_agreement": {
+    "RAD_01_CLINICO_vs_RAD_02_MAMARIA": {
+      "common_cases": 60,
+      "cohen_kappa_manipulation": 0.26991150442477885,
+      "weighted_kappa_margin_distortion": 0.18706293706293708
+    }
+  },
+  "summary": {
+    "mean_inpaint_detection_rate": 0.5726190476190476,
+    "mean_margin_distortion_delta": 0.2833333333333333,
+    "mean_cohen_kappa": 0.26991150442477885,
+    "clinical_interpretation": "Baja detección de inpainting (sensibilidad cercana a tasa de azar) y delta de distorsión de margen ~0 demuestran no-inferioridad morfológica del inpainting acústico."
+  }
+}

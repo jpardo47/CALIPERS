@@ -1,0 +1,83 @@
+[
+  {
+    "patient_id": "73",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 690
+  },
+  {
+    "patient_id": "91",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 675
+  },
+  {
+    "patient_id": "130",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 1045
+  },
+  {
+    "patient_id": "156",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 726
+  },
+  {
+    "patient_id": "176",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 669
+  },
+  {
+    "patient_id": "195",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 245
+  },
+  {
+    "patient_id": "255",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 656
+  },
+  {
+    "patient_id": "341",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 831
+  },
+  {
+    "patient_id": "735",
+    "device": "GE Logiq 5 @10-12MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 657
+  }
+]

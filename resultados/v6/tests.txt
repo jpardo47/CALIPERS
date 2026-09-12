@@ -1,0 +1,33 @@
+[*] Cargando pesos desde: weights.pt ...
+test_accepted_path_preserves_exterior (test_acoustic.SafetyTests.test_accepted_path_preserves_exterior) ... ok
+test_ambiguous_abstains (test_acoustic.SafetyTests.test_ambiguous_abstains) ... ok
+test_cam_zero_missing_and_uniform_enrichment (test_acoustic.SafetyTests.test_cam_zero_missing_and_uniform_enrichment) ... ok
+test_counterfactual_score_sensitivity (test_acoustic.SafetyTests.test_counterfactual_score_sensitivity) ... ok
+test_empty_and_full_masks (test_acoustic.SafetyTests.test_empty_and_full_masks) ... ok
+test_empty_support_is_missing_not_perfect (test_acoustic.SafetyTests.test_empty_support_is_missing_not_perfect) ... ok
+test_exact_exterior (test_acoustic.SafetyTests.test_exact_exterior) ... ok
+test_local_psnr_not_diluted_by_exterior (test_acoustic.SafetyTests.test_local_psnr_not_diluted_by_exterior) ... ok
+test_overlay_reproducible_and_supported (test_acoustic.SafetyTests.test_overlay_reproducible_and_supported) ... ok
+test_patient_leakage_rejected (test_acoustic.SafetyTests.test_patient_leakage_rejected) ... ok
+test_pfpr_requires_independent_gt (test_acoustic.SafetyTests.test_pfpr_requires_independent_gt) ... ok
+test_png_exact (test_acoustic.SafetyTests.test_png_exact) ... ok
+test_protected_abstains_even_with_permissive_qc (test_acoustic.SafetyTests.test_protected_abstains_even_with_permissive_qc) ... ok
+test_reject_resize_and_soft_masks (test_acoustic.SafetyTests.test_reject_resize_and_soft_masks) ... ok
+test_segmentation_requires_actual_after (test_acoustic.SafetyTests.test_segmentation_requires_actual_after) ... ok
+test_support_does_not_silently_clip (test_acoustic.SafetyTests.test_support_does_not_silently_clip) ... ok
+test_gray_rgb_boolean_and_exact_exterior (test_ffc_contract.FFCContractTests.test_gray_rgb_boolean_and_exact_exterior) ... ok
+test_incomplete_weights_fail (test_ffc_contract.FFCContractTests.test_incomplete_weights_fail) ... ok
+test_losses_have_finite_gradients (test_ffc_contract.FFCContractTests.test_losses_have_finite_gradients) ... ok
+test_nonfinite_prediction_is_rejected (test_ffc_contract.FFCContractTests.test_nonfinite_prediction_is_rejected) ... ok
+test_empty_detector_not_eligible (test_v6.V6Tests.test_empty_detector_not_eligible) ... ok
+test_fwhm_gaussian_phantom (test_v6.V6Tests.test_fwhm_gaussian_phantom) ... ok
+test_mark_support_exact_and_reproducible (test_v6.V6Tests.test_mark_support_exact_and_reproducible) ... ok
+test_patient_bootstrap_does_not_weight_views (test_v6.V6Tests.test_patient_bootstrap_does_not_weight_views) ... ok
+test_png_not_linear_envelope (test_v6.V6Tests.test_png_not_linear_envelope) ... ok
+test_yellow_candidate_requires_certification (test_v6.V6Tests.test_yellow_candidate_requires_certification) ... ok
+test_zero_errors_not_zero_risk (test_v6.V6Tests.test_zero_errors_not_zero_risk) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.594s
+
+OK

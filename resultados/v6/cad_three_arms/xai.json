@@ -1,0 +1,650 @@
+[
+  {
+    "seed": 11,
+    "arm": "raw",
+    "patient_id": "73",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "raw",
+    "patient_id": "91",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "raw",
+    "patient_id": "130",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "raw",
+    "patient_id": "156",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "raw",
+    "patient_id": "176",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "raw",
+    "patient_id": "195",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "raw",
+    "patient_id": "255",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "raw",
+    "patient_id": "341",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "raw",
+    "patient_id": "735",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "bbox",
+    "patient_id": "73",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "bbox",
+    "patient_id": "91",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "bbox",
+    "patient_id": "130",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "bbox",
+    "patient_id": "156",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "bbox",
+    "patient_id": "176",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "bbox",
+    "patient_id": "195",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "bbox",
+    "patient_id": "255",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "bbox",
+    "patient_id": "341",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "bbox",
+    "patient_id": "735",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "inpaint",
+    "patient_id": "73",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "inpaint",
+    "patient_id": "91",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "inpaint",
+    "patient_id": "130",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "inpaint",
+    "patient_id": "156",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "inpaint",
+    "patient_id": "176",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "inpaint",
+    "patient_id": "195",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "inpaint",
+    "patient_id": "255",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "inpaint",
+    "patient_id": "341",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 11,
+    "arm": "inpaint",
+    "patient_id": "735",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "raw",
+    "patient_id": "73",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "raw",
+    "patient_id": "91",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "raw",
+    "patient_id": "130",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "raw",
+    "patient_id": "156",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "raw",
+    "patient_id": "176",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "raw",
+    "patient_id": "195",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "raw",
+    "patient_id": "255",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "raw",
+    "patient_id": "341",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "raw",
+    "patient_id": "735",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "bbox",
+    "patient_id": "73",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "bbox",
+    "patient_id": "91",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "bbox",
+    "patient_id": "130",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "bbox",
+    "patient_id": "156",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "bbox",
+    "patient_id": "176",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "bbox",
+    "patient_id": "195",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "bbox",
+    "patient_id": "255",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "bbox",
+    "patient_id": "341",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "bbox",
+    "patient_id": "735",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "inpaint",
+    "patient_id": "73",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "inpaint",
+    "patient_id": "91",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "inpaint",
+    "patient_id": "130",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "inpaint",
+    "patient_id": "156",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "inpaint",
+    "patient_id": "176",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "inpaint",
+    "patient_id": "195",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "inpaint",
+    "patient_id": "255",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "inpaint",
+    "patient_id": "341",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 22,
+    "arm": "inpaint",
+    "patient_id": "735",
+    "artifact_energy": null,
+    "artifact_area_enrichment": null,
+    "lesion_energy": null
+  },
+  {
+    "seed": 33,
+    "arm": "raw",
+    "patient_id": "73",
+    "artifact_energy": 0.007368508250690469,
+    "artifact_area_enrichment": 0.17496469446277196,
+    "lesion_energy": 0.0019020768006404814
+  },
+  {
+    "seed": 33,
+    "arm": "raw",
+    "patient_id": "91",
+    "artifact_energy": 0.0023889176296924557,
+    "artifact_area_enrichment": 0.057985224362786955,
+    "lesion_energy": 0.0
+  },
+  {
+    "seed": 33,
+    "arm": "raw",
+    "patient_id": "130",
+    "artifact_energy": 0.01721349794022238,
+    "artifact_area_enrichment": 0.2698812921077545,
+    "lesion_energy": 0.0
+  },
+  {
+    "seed": 33,
+    "arm": "raw",
+    "patient_id": "156",
+    "artifact_energy": 0.017243759809183672,
+    "artifact_area_enrichment": 0.38914843073507616,
+    "lesion_energy": 0.0004234540136199923
+  },
+  {
+    "seed": 33,
+    "arm": "raw",
+    "patient_id": "176",
+    "artifact_energy": 0.0018001883176841371,
+    "artifact_area_enrichment": 0.0440871231643302,
+    "lesion_energy": 0.0
+  },
+  {
+    "seed": 33,
+    "arm": "raw",
+    "patient_id": "195",
+    "artifact_energy": 0.0021117007887825234,
+    "artifact_area_enrichment": 0.14121675805474637,
+    "lesion_energy": 0.0
+  },
+  {
+    "seed": 33,
+    "arm": "raw",
+    "patient_id": "255",
+    "artifact_energy": 0.006933227305548045,
+    "artifact_area_enrichment": 0.17316157953368777,
+    "lesion_energy": 0.0
+  },
+  {
+    "seed": 33,
+    "arm": "raw",
+    "patient_id": "341",
+    "artifact_energy": 0.0038607012029026845,
+    "artifact_area_enrichment": 0.07611760349982861,
+    "lesion_energy": 0.003126294603995712
+  },
+  {
+    "seed": 33,
+    "arm": "raw",
+    "patient_id": "735",
+    "artifact_energy": 0.0015797574942321853,
+    "artifact_area_enrichment": 0.039395352793759705,
+    "lesion_energy": 0.0
+  },
+  {
+    "seed": 33,
+    "arm": "bbox",
+    "patient_id": "73",
+    "artifact_energy": 0.01158829796228887,
+    "artifact_area_enrichment": 0.2751632953828128,
+    "lesion_energy": 0.02941611315443238
+  },
+  {
+    "seed": 33,
+    "arm": "bbox",
+    "patient_id": "91",
+    "artifact_energy": 0.003167723769658476,
+    "artifact_area_enrichment": 0.07688886850679182,
+    "lesion_energy": 0.00029462066958496337
+  },
+  {
+    "seed": 33,
+    "arm": "bbox",
+    "patient_id": "130",
+    "artifact_energy": 0.025219067448635814,
+    "artifact_area_enrichment": 0.3953963646683724,
+    "lesion_energy": 0.000611061733273339
+  },
+  {
+    "seed": 33,
+    "arm": "bbox",
+    "patient_id": "156",
+    "artifact_energy": 0.024123899085713347,
+    "artifact_area_enrichment": 0.5444159264742803,
+    "lesion_energy": 0.01606441889765476
+  },
+  {
+    "seed": 33,
+    "arm": "bbox",
+    "patient_id": "176",
+    "artifact_energy": 0.006957763044567251,
+    "artifact_area_enrichment": 0.17039759300775761,
+    "lesion_energy": 7.7991092394021e-05
+  },
+  {
+    "seed": 33,
+    "arm": "bbox",
+    "patient_id": "195",
+    "artifact_energy": 0.0029042505249833248,
+    "artifact_area_enrichment": 0.19421730857684405,
+    "lesion_energy": 0.002299042289783281
+  },
+  {
+    "seed": 33,
+    "arm": "bbox",
+    "patient_id": "255",
+    "artifact_energy": 0.012015519099540111,
+    "artifact_area_enrichment": 0.3000949160470506,
+    "lesion_energy": 0.0
+  },
+  {
+    "seed": 33,
+    "arm": "bbox",
+    "patient_id": "341",
+    "artifact_energy": 0.012116656440892477,
+    "artifact_area_enrichment": 0.23889205671189212,
+    "lesion_energy": 0.0065192098418942225
+  },
+  {
+    "seed": 33,
+    "arm": "bbox",
+    "patient_id": "735",
+    "artifact_energy": 0.009205127909592768,
+    "artifact_area_enrichment": 0.22955375292354324,
+    "lesion_energy": 0.0002828790851611684
+  },
+  {
+    "seed": 33,
+    "arm": "inpaint",
+    "patient_id": "73",
+    "artifact_energy": 0.01026212931378514,
+    "artifact_area_enrichment": 0.2436735169232692,
+    "lesion_energy": 0.01560802532046638
+  },
+  {
+    "seed": 33,
+    "arm": "inpaint",
+    "patient_id": "91",
+    "artifact_energy": 0.002919814776074694,
+    "artifact_area_enrichment": 0.07087147450549301,
+    "lesion_energy": 0.001144100807271731
+  },
+  {
+    "seed": 33,
+    "arm": "inpaint",
+    "patient_id": "130",
+    "artifact_energy": 0.03747665495735388,
+    "artifact_area_enrichment": 0.5875765692069722,
+    "lesion_energy": 0.0008916687132451491
+  },
+  {
+    "seed": 33,
+    "arm": "inpaint",
+    "patient_id": "156",
+    "artifact_energy": 0.02397486189211574,
+    "artifact_area_enrichment": 0.5410525306341932,
+    "lesion_energy": 0.013610157738987874
+  },
+  {
+    "seed": 33,
+    "arm": "inpaint",
+    "patient_id": "176",
+    "artifact_energy": 0.006979893649979827,
+    "artifact_area_enrichment": 0.17093957781953587,
+    "lesion_energy": 0.0
+  },
+  {
+    "seed": 33,
+    "arm": "inpaint",
+    "patient_id": "195",
+    "artifact_energy": 0.0025456363329696276,
+    "artifact_area_enrichment": 0.17023553338520153,
+    "lesion_energy": 0.002879213777607715
+  },
+  {
+    "seed": 33,
+    "arm": "inpaint",
+    "patient_id": "255",
+    "artifact_energy": 0.015877282373224354,
+    "artifact_area_enrichment": 0.396544808541018,
+    "lesion_energy": 0.0
+  },
+  {
+    "seed": 33,
+    "arm": "inpaint",
+    "patient_id": "341",
+    "artifact_energy": 0.020634323752001898,
+    "artifact_area_enrichment": 0.4068264264173274,
+    "lesion_energy": 0.014697034910552352
+  },
+  {
+    "seed": 33,
+    "arm": "inpaint",
+    "patient_id": "735",
+    "artifact_energy": 0.013476785065155471,
+    "artifact_area_enrichment": 0.33607860960046765,
+    "lesion_energy": 0.004679274468484753
+  }
+]

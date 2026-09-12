@@ -1,0 +1,25 @@
+case_id,image,patient_id,device,reviewer_1,reviewer_2,adjudicator,artifact_mask_path,tissue_mask_path,uncertain_mask_path,clean_reviewed,review_status
+A001,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0729-s.png,729,GE Logiq 5 @10-12MHz,,,,,,,,pending
+A002,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0810-s.png,810,GE Logiq 5 @10-12MHz,,,,,,,,pending
+A003,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0683-s.png,683,GE Logiq 5 @10-12MHz,,,,,,,,pending
+A004,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0835-s.png,835,GE Logiq 5 @10-12MHz,,,,,,,,pending
+A005,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0372-r.png,372,GE Logiq 5 @10-12MHz,,,,,,,,pending
+A006,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0586-r.png,586,GE Logiq 5 @10-12MHz,,,,,,,,pending
+A007,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0018-s.png,18,GE Logiq 7 @10-14MHz,,,,,,,,pending
+A008,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0054-s.png,54,GE Logiq 7 @10-14MHz,,,,,,,,pending
+A009,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0125-l.png,125,GE Logiq 7 @10-14MHz,,,,,,,,pending
+A010,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0003-l.png,3,GE Logiq 7 @10-14MHz,,,,,,,,pending
+A011,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0992-l.png,992,GE Logiq 7 @10-14MHz,,,,,,,,pending
+A012,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0992-r.png,992,GE Logiq 7 @10-14MHz,,,,,,,,pending
+A013,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0993-l.png,993,Toshiba Aplio 300 @12-14 MHz,,,,,,,,pending
+A014,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0993-r.png,993,Toshiba Aplio 300 @12-14 MHz,,,,,,,,pending
+A015,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0994-l.png,994,Toshiba Aplio 300 @12-14 MHz,,,,,,,,pending
+A016,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0994-r.png,994,Toshiba Aplio 300 @12-14 MHz,,,,,,,,pending
+A017,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_1064-l.png,1064,Toshiba Aplio 300 @12-14 MHz,,,,,,,,pending
+A018,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_1064-r.png,1064,Toshiba Aplio 300 @12-14 MHz,,,,,,,,pending
+A019,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0851-s.png,851,U-Systems @10-14MHz,,,,,,,,pending
+A020,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0848-r.png,848,U-Systems @10-14MHz,,,,,,,,pending
+A021,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0850-l.png,850,U-Systems @10-14MHz,,,,,,,,pending
+A022,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0855-l.png,855,U-Systems @10-14MHz,,,,,,,,pending
+A023,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0861-l.png,861,U-Systems @10-14MHz,,,,,,,,pending
+A024,C:\Users\sebas\OneDrive\Escritorio\PRUEBAINPAINTING\data\bases_datos_originales\BUS_BRA\BUSBRA\BUSBRA\Images\bus_0861-r.png,861,U-Systems @10-14MHz,,,,,,,,pending

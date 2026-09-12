@@ -1,0 +1,31 @@
+mask_coverage_pct,tissue_preservation_gain_pct,ssim_outside_mask,boundary_gradient_mean,speckle_variance_ratio,glcm_contrast_diff,image,method
+5.7942,0.0,0.996938,35.83,0.7474,0.4543,bus_0002-l.png,1. Baseline BBox
+1.7304,70.14,0.988663,45.88,0.9506,0.4434,bus_0002-l.png,2. Trazo Simple
+1.7304,70.14,0.987941,50.9,1.017,0.4415,bus_0002-l.png,3. Híbrido Propuesto (V3)
+8.9589,0.0,0.996135,38.15,0.8401,0.282,bus_0003-l.png,1. Baseline BBox
+2.6628,70.28,0.982496,50.2,0.9154,0.2677,bus_0003-l.png,2. Trazo Simple
+2.6628,70.28,0.981473,56.31,0.9899,0.2665,bus_0003-l.png,3. Híbrido Propuesto (V3)
+1.0252,0.0,0.999406,53.16,0.7164,0.0292,bus_0003-r.png,1. Baseline BBox
+0.4444,56.65,0.998633,49.16,0.7139,0.0247,bus_0003-r.png,2. Trazo Simple
+0.4444,56.65,0.998531,51.31,0.7751,0.0246,bus_0003-r.png,3. Híbrido Propuesto (V3)
+8.1824,0.0,0.997618,44.93,0.7247,0.4624,bus_0008-l.png,1. Baseline BBox
+1.97,75.92,0.98483,56.12,0.7003,0.4362,bus_0008-l.png,2. Trazo Simple
+1.97,75.92,0.984355,62.09,0.7322,0.434,bus_0008-l.png,3. Híbrido Propuesto (V3)
+9.914,0.0,0.994946,44.29,0.8976,0.0836,bus_0018-s.png,1. Baseline BBox
+4.471,54.9,0.985622,45.46,0.7424,0.0717,bus_0018-s.png,2. Trazo Simple
+4.471,54.9,0.984864,46.94,0.7622,0.0704,bus_0018-s.png,3. Híbrido Propuesto (V3)
+9.6687,0.0,0.992912,52.29,0.9842,0.2053,bus_0019-l.png,1. Baseline BBox
+4.3751,54.75,0.984985,59.31,0.9507,0.1892,bus_0019-l.png,2. Trazo Simple
+4.3751,54.75,0.98405,62.45,1.013,0.1873,bus_0019-l.png,3. Híbrido Propuesto (V3)
+0.8065,0.0,0.99943,66.7,0.7594,0.0329,bus_0019-r.png,1. Baseline BBox
+0.4081,49.4,0.998988,62.41,0.9351,0.0254,bus_0019-r.png,2. Trazo Simple
+0.4081,49.4,0.998898,65.03,0.9998,0.0237,bus_0019-r.png,3. Híbrido Propuesto (V3)
+6.6195,0.0,0.996595,43.07,0.9244,0.2491,bus_0020-l.png,1. Baseline BBox
+1.8845,71.53,0.990033,53.3,0.8058,0.2213,bus_0020-l.png,2. Trazo Simple
+1.8845,71.53,0.989252,57.05,0.857,0.2181,bus_0020-l.png,3. Híbrido Propuesto (V3)
+7.9835,0.0,0.996451,31.2,0.9059,0.2038,bus_0027-l.png,1. Baseline BBox
+2.7412,65.66,0.987482,44.97,0.8949,0.1847,bus_0027-l.png,2. Trazo Simple
+2.7412,65.66,0.986912,46.96,0.9322,0.1834,bus_0027-l.png,3. Híbrido Propuesto (V3)
+4.4804,0.0,0.998514,36.38,0.7002,0.6099,bus_0038-s.png,1. Baseline BBox
+1.1328,74.72,0.990518,74.57,0.5925,0.6076,bus_0038-s.png,2. Trazo Simple
+1.1328,74.72,0.990221,82.13,0.6249,0.6041,bus_0038-s.png,3. Híbrido Propuesto (V3)

@@ -1,0 +1,65 @@
+# ==============================================================================
+# Git Ignore - Proyecto Inpainting Acústico Ecografía Mamaria (CALIPERS)
+# ==============================================================================
+
+# Checkpoints y pesos de modelos de Deep Learning (>100MB)
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.h5
+*.pb
+
+# Archivos comprimidos de gran tamaño
+*.zip
+*.tar.gz
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Datasets médicos crudos masivos y colecciones completas de ecografías
+data/bases_datos_originales/
+data/pretrained/
+ecografias_limpias_para_drive/
+ecografias_limpias_para_drive.zip
+
+# Caches generados durante experimentos de V6
+resultados/v6/detector_cache_expanded/
+resultados/v6/cad_cache_*/
+resultados/v6/detector/probabilities.npy
+resultados/v6/detector_calibrated/probabilities.npy
+
+# Python y compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Archivos de depuración y temporales
+scratch/
+*.log
+.system_generated/
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

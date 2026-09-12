@@ -1,0 +1,142 @@
+[
+  {
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.5,
+    "patients": 10,
+    "patients_with_false_positive": 10,
+    "false_positive_pixels": 5350,
+    "recall": 0.9615629375079547,
+    "patient_risk_upper_simultaneous95": 1.0,
+    "eligible": false
+  },
+  {
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.7,
+    "patients": 10,
+    "patients_with_false_positive": 10,
+    "false_positive_pixels": 4234,
+    "recall": 0.9369988545246277,
+    "patient_risk_upper_simultaneous95": 1.0,
+    "eligible": false
+  },
+  {
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.9,
+    "patients": 10,
+    "patients_with_false_positive": 10,
+    "false_positive_pixels": 1516,
+    "recall": 0.8042509863815706,
+    "patient_risk_upper_simultaneous95": 1.0,
+    "eligible": false
+  },
+  {
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.95,
+    "patients": 10,
+    "patients_with_false_positive": 10,
+    "false_positive_pixels": 313,
+    "recall": 0.4551355479190531,
+    "patient_risk_upper_simultaneous95": 1.0,
+    "eligible": false
+  },
+  {
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.99,
+    "patients": 10,
+    "patients_with_false_positive": 0,
+    "false_positive_pixels": 0,
+    "recall": 0.07687412498409062,
+    "patient_risk_upper_simultaneous95": 0.4307746971033526,
+    "eligible": false
+  },
+  {
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "patients": 10,
+    "patients_with_false_positive": 0,
+    "false_positive_pixels": 0,
+    "recall": 0.021127656866488483,
+    "patient_risk_upper_simultaneous95": 0.4307746971033526,
+    "eligible": false
+  },
+  {
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 1.0,
+    "patients": 10,
+    "patients_with_false_positive": 0,
+    "false_positive_pixels": 0,
+    "recall": 0.0,
+    "patient_risk_upper_simultaneous95": 0.4307746971033526,
+    "eligible": false
+  },
+  {
+    "device": "U-Systems @10-14MHz",
+    "threshold": 0.5,
+    "patients": 2,
+    "patients_with_false_positive": 2,
+    "false_positive_pixels": 1754,
+    "recall": 0.9690063810391978,
+    "patient_risk_upper_simultaneous95": 1.0,
+    "eligible": false
+  },
+  {
+    "device": "U-Systems @10-14MHz",
+    "threshold": 0.7,
+    "patients": 2,
+    "patients_with_false_positive": 2,
+    "false_positive_pixels": 1351,
+    "recall": 0.9480401093892434,
+    "patient_risk_upper_simultaneous95": 1.0,
+    "eligible": false
+  },
+  {
+    "device": "U-Systems @10-14MHz",
+    "threshold": 0.9,
+    "patients": 2,
+    "patients_with_false_positive": 2,
+    "false_positive_pixels": 418,
+    "recall": 0.8030993618960802,
+    "patient_risk_upper_simultaneous95": 1.0,
+    "eligible": false
+  },
+  {
+    "device": "U-Systems @10-14MHz",
+    "threshold": 0.95,
+    "patients": 2,
+    "patients_with_false_positive": 2,
+    "false_positive_pixels": 68,
+    "recall": 0.4380127620783956,
+    "patient_risk_upper_simultaneous95": 1.0,
+    "eligible": false
+  },
+  {
+    "device": "U-Systems @10-14MHz",
+    "threshold": 0.99,
+    "patients": 2,
+    "patients_with_false_positive": 0,
+    "false_positive_pixels": 0,
+    "recall": 0.024612579762989972,
+    "patient_risk_upper_simultaneous95": 0.9402385695332804,
+    "eligible": false
+  },
+  {
+    "device": "U-Systems @10-14MHz",
+    "threshold": 0.999,
+    "patients": 2,
+    "patients_with_false_positive": 0,
+    "false_positive_pixels": 0,
+    "recall": 0.0,
+    "patient_risk_upper_simultaneous95": 0.9402385695332804,
+    "eligible": false
+  },
+  {
+    "device": "U-Systems @10-14MHz",
+    "threshold": 1.0,
+    "patients": 2,
+    "patients_with_false_positive": 0,
+    "false_positive_pixels": 0,
+    "recall": 0.0,
+    "patient_risk_upper_simultaneous95": 0.9402385695332804,
+    "eligible": false
+  }
+]

@@ -1,0 +1,488 @@
+[
+  {
+    "patient_id": "16",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 720
+  },
+  {
+    "patient_id": "16",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 15,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 1011
+  },
+  {
+    "patient_id": "100",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 605
+  },
+  {
+    "patient_id": "100",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 5,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 700
+  },
+  {
+    "patient_id": "103",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 841
+  },
+  {
+    "patient_id": "114",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 3,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 826
+  },
+  {
+    "patient_id": "115",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 696
+  },
+  {
+    "patient_id": "115",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 689
+  },
+  {
+    "patient_id": "122",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 631
+  },
+  {
+    "patient_id": "128",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 734
+  },
+  {
+    "patient_id": "129",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 681
+  },
+  {
+    "patient_id": "129",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 681
+  },
+  {
+    "patient_id": "130",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 783
+  },
+  {
+    "patient_id": "130",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 18,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 1009
+  },
+  {
+    "patient_id": "145",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 637
+  },
+  {
+    "patient_id": "145",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 2,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 708
+  },
+  {
+    "patient_id": "156",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 653
+  },
+  {
+    "patient_id": "156",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 654
+  },
+  {
+    "patient_id": "157",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 700
+  },
+  {
+    "patient_id": "157",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 4,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 775
+  },
+  {
+    "patient_id": "158",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 615
+  },
+  {
+    "patient_id": "158",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 2,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 709
+  },
+  {
+    "patient_id": "162",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 629
+  },
+  {
+    "patient_id": "162",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 686
+  },
+  {
+    "patient_id": "176",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 646
+  },
+  {
+    "patient_id": "176",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 4,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 680
+  },
+  {
+    "patient_id": "177",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 631
+  },
+  {
+    "patient_id": "177",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 2,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 663
+  },
+  {
+    "patient_id": "195",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 232
+  },
+  {
+    "patient_id": "195",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 180
+  },
+  {
+    "patient_id": "201",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 744
+  },
+  {
+    "patient_id": "202",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 747
+  },
+  {
+    "patient_id": "202",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 652
+  },
+  {
+    "patient_id": "206",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 985
+  },
+  {
+    "patient_id": "206",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 795
+  },
+  {
+    "patient_id": "207",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 674
+  },
+  {
+    "patient_id": "207",
+    "device": "GE Logiq 7 @10-14MHz",
+    "threshold": 0.999,
+    "status": "synthetic_risk_certified",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 678
+  },
+  {
+    "patient_id": "1004",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 1011
+  },
+  {
+    "patient_id": "1004",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 713
+  },
+  {
+    "patient_id": "1020",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 731
+  },
+  {
+    "patient_id": "1020",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 624
+  },
+  {
+    "patient_id": "1032",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 876
+  },
+  {
+    "patient_id": "1032",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 796
+  },
+  {
+    "patient_id": "1039",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 1044
+  },
+  {
+    "patient_id": "1039",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 788
+  },
+  {
+    "patient_id": "1040",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 906
+  },
+  {
+    "patient_id": "1040",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 809
+  },
+  {
+    "patient_id": "1044",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 616
+  },
+  {
+    "patient_id": "1044",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 617
+  },
+  {
+    "patient_id": "1048",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 1026
+  },
+  {
+    "patient_id": "1048",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 732
+  },
+  {
+    "patient_id": "1053",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 673
+  },
+  {
+    "patient_id": "1058",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 693
+  },
+  {
+    "patient_id": "1058",
+    "device": "Toshiba Aplio 300 @12-14 MHz",
+    "threshold": null,
+    "status": "abstained",
+    "true_positive_pixels": 0,
+    "false_positive_pixels": 0,
+    "artifact_pixels": 687
+  }
+]

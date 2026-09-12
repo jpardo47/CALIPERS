@@ -1,0 +1,10 @@
+{
+  "cache_sha256": "57e11afaba31bbb6e5ca115b9e729a8a46b8fd6281e5bf8995c044ccca9d8d7a",
+  "clinical_gt": false,
+  "supervision": "synthetic_overlay_support; reference negatives unverified",
+  "risk_unit": "patient with >=1 pixel false positive outside injected overlay",
+  "risk_limit": 0.05,
+  "threshold_selection": "simultaneous Bonferroni Clopper-Pearson upper bounds",
+  "expert_detector_validation": false,
+  "eligible_devices": 0
+}

@@ -1,0 +1,1470 @@
+{
+  "scope": "exploratory_existing_curated_images_not_independent_test",
+  "clean_verification": "not_independently_verified",
+  "training_overlap": "unknown_for_existing_checkpoint",
+  "clinical_pfpr": "unavailable_without_tissue_and_artifact_annotations",
+  "bbox_convention": "union_of_connected_component_boxes",
+  "overlay_placement": "visible_context_v2_not_tissue_certification",
+  "seed": 42,
+  "python": "3.11.9",
+  "numpy": "1.26.4",
+  "opencv": "4.10.0",
+  "weights": {
+    "finetuned": {
+      "path": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\mejor_modelo_lama_generator.pt",
+      "sha256": "44ea5201c5b470d8573684103063579b3720356937c836e12191f20889cea423"
+    }
+  },
+  "cases": [
+    {
+      "path": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\ecografias_limpias_para_drive\\Images_bus_0004-r.png",
+      "sha256": "58b8209c55e6be1e54545a1d65f342ec675910653d982a4229bab41b751adc4f",
+      "seed": 42
+    },
+    {
+      "path": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\ecografias_limpias_para_drive\\Images_bus_0013-r.png",
+      "sha256": "057c3e6ea07b64d30d728620f06d675068b679cab58a19661ad41e74b65fbee1",
+      "seed": 43
+    },
+    {
+      "path": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\ecografias_limpias_para_drive\\malignant_malignant (1).png",
+      "sha256": "278fe7481bf190da2ffcfb27d52120b376f63cd660e33fe2b088900b1852e346",
+      "seed": 44
+    },
+    {
+      "path": "C:\\Users\\sebas\\OneDrive\\Escritorio\\PRUEBAINPAINTING\\ecografias_limpias_para_drive\\malignant_malignant (100).png",
+      "sha256": "64c3d90f45effae5d977734f865ab1aa6114936d986408180ecdd8591d3a5a93",
+      "seed": 45
+    }
+  ],
+  "rows": [
+    {
+      "mask_pixels": 1265,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.7334639655336954,
+      "variance_ratio": 0.537969388736414,
+      "ks_statistic": 0.1609798171468001,
+      "ks_p_iid_descriptive": 7.970698325383173e-20,
+      "sobel_jump": 10.478612154990184,
+      "glcm": {
+        "1": {
+          "contrast": 0.21813592054939535,
+          "homogeneity": 0.0820320916342453,
+          "entropy": 0.9407497047298112,
+          "correlation": 0.03715915751373533
+        },
+        "2": {
+          "contrast": 0.43284259591068225,
+          "homogeneity": 0.10164032577527815,
+          "entropy": 0.9976509553283899,
+          "correlation": 0.0756351080650477
+        },
+        "3": {
+          "contrast": 0.5816687397822938,
+          "homogeneity": 0.09437103665364988,
+          "entropy": 0.9683713931622733,
+          "correlation": 0.0808210611598078
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.07306114398379926,
+        "1:1": 0.00016876740818982938,
+        "0:2": 0.15542626032975726,
+        "1:2": 0.0014669606738965113,
+        "0:3": 0.17705141933219648,
+        "1:3": 0.007562061331512826
+      },
+      "ppsnr_db": 27.197161897741605,
+      "pssim": 0.7316211519839247,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0004-r.png",
+      "method": "telea_bbox",
+      "case": 0,
+      "outside_overlay_changed_pixels": 630,
+      "nonoverlay_frame_change_pct": 0.5972582999943118,
+      "tissue_gain_geometry_pct": 0.0,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 609,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8152239742936099,
+      "variance_ratio": 0.6645901282630684,
+      "ks_statistic": 0.1563425261497485,
+      "ks_p_iid_descriptive": 4.695929047305171e-11,
+      "sobel_jump": 11.69076763023397,
+      "glcm": {
+        "1": {
+          "contrast": 0.20742769077128903,
+          "homogeneity": 0.07226077134288578,
+          "entropy": 0.8413735300762695,
+          "correlation": 0.04610796742162315
+        },
+        "2": {
+          "contrast": 0.47989933478405294,
+          "homogeneity": 0.10486360460101007,
+          "entropy": 0.9490057261001068,
+          "correlation": 0.1329444433095348
+        },
+        "3": {
+          "contrast": 0.5961656348576149,
+          "homogeneity": 0.09379494999046512,
+          "entropy": 0.8889293858602962,
+          "correlation": 0.15798623426959368
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.08094616267216437,
+        "1:1": 0.000895344902242301,
+        "0:2": 0.195869331262445,
+        "1:2": 0.024621504251921333,
+        "0:3": 0.21987257537226668,
+        "1:3": 0.060514634700455816
+      },
+      "ppsnr_db": 32.03263484901911,
+      "pssim": 0.8831830719974022,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0004-r.png",
+      "method": "telea_stroke",
+      "case": 0,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 51.85770750988142,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 609,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8194672176235918,
+      "variance_ratio": 0.671526520759751,
+      "ks_statistic": 0.15829486831387457,
+      "ks_p_iid_descriptive": 2.5330919349377243e-11,
+      "sobel_jump": 11.894273718034265,
+      "glcm": {
+        "1": {
+          "contrast": 0.1820888575361682,
+          "homogeneity": 0.06100561518496006,
+          "entropy": 0.7735899071095962,
+          "correlation": 0.02913042564290491
+        },
+        "2": {
+          "contrast": 0.46902976956666165,
+          "homogeneity": 0.10043216647391973,
+          "entropy": 0.9310043564010089,
+          "correlation": 0.1228014231304797
+        },
+        "3": {
+          "contrast": 0.5848277663768893,
+          "homogeneity": 0.0962892810562247,
+          "entropy": 0.868767411307136,
+          "correlation": 0.14597937303351416
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.06815792287261713,
+        "1:1": 0.00956727009378,
+        "0:2": 0.17569922122434845,
+        "1:2": 0.014148034196116988,
+        "0:3": 0.19695557848926526,
+        "1:3": 0.047250746132952326
+      },
+      "ppsnr_db": 31.772797842144684,
+      "pssim": 0.8769261596722245,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0004-r.png",
+      "method": "acoustic_telea",
+      "case": 0,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 51.85770750988142,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 90,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.1477832512315271,
+      "std_ratio": 1.2680474832204085,
+      "variance_ratio": 1.6079444197016122,
+      "ks_statistic": 0.9175675675675675,
+      "ks_p_iid_descriptive": 3.888302386278211e-87,
+      "sobel_jump": 152.2003282964857,
+      "glcm": {
+        "1": {
+          "contrast": 0.16155568170863643,
+          "homogeneity": 0.09453128494893648,
+          "entropy": 0.12369934856218379,
+          "correlation": 0.0009139978006627025
+        },
+        "2": {
+          "contrast": 0.34113743373002636,
+          "homogeneity": 0.031755192430573786,
+          "entropy": 0.5415950819655566,
+          "correlation": 0.10789474657613451
+        },
+        "3": {
+          "contrast": 0.16936936936936942,
+          "homogeneity": 0.042401043577514286,
+          "entropy": 0.4379287214719927,
+          "correlation": 0.024676866603678294
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.025520139664739205,
+        "1:1": 0.09258616220303106,
+        "0:2": 0.2477229413847557,
+        "1:2": 0.0968636400193219,
+        "0:3": 0.3203011508682607,
+        "1:3": 0.18766251438297343
+      },
+      "ppsnr_db": 9.475875023015393,
+      "pssim": 0.06541050256658049,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0004-r.png",
+      "method": "detector_acoustic_telea",
+      "case": 0,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 92.88537549407114,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 90,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.1477832512315271,
+      "std_ratio": 0.6720965312653809,
+      "variance_ratio": 0.4517137473389572,
+      "ks_statistic": 1.0,
+      "ks_p_iid_descriptive": 0.0,
+      "sobel_jump": 505.96359639418705,
+      "glcm": {
+        "1": {
+          "contrast": 0.13057914975203777,
+          "homogeneity": 0.051536130781400624,
+          "entropy": 1.319044675902643,
+          "correlation": 0.30399891903588555
+        },
+        "2": {
+          "contrast": 0.6924887850813777,
+          "homogeneity": 0.15878221945760085,
+          "entropy": 1.865886175910136,
+          "correlation": 0.0353766596115892
+        },
+        "3": {
+          "contrast": 0.8693693693693695,
+          "homogeneity": 0.1875989564224858,
+          "entropy": 1.8884269486571088,
+          "correlation": 0.0726383534847348
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.581123447012574,
+        "1:1": 1.001556240308375,
+        "0:2": 0.05220598716003888,
+        "1:2": 0.2120317293418581,
+        "0:3": 0.2619709437752896,
+        "1:3": 0.6549938202206307
+      },
+      "ppsnr_db": 7.274240561134908,
+      "pssim": 0.03299579181896859,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0004-r.png",
+      "method": "selective_production",
+      "case": 0,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 92.88537549407114,
+      "status": "abstained"
+    },
+    {
+      "mask_pixels": 609,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8186582927842853,
+      "variance_ratio": 0.6702014003444805,
+      "ks_statistic": 0.10122441591352807,
+      "ks_p_iid_descriptive": 7.065924458625643e-05,
+      "sobel_jump": 14.294998264580366,
+      "glcm": {
+        "1": {
+          "contrast": 0.09664395476657489,
+          "homogeneity": 0.02323307540888453,
+          "entropy": 0.5241050742040922,
+          "correlation": 0.018106113769803978
+        },
+        "2": {
+          "contrast": 0.38792609063689576,
+          "homogeneity": 0.06790708286187963,
+          "entropy": 0.75571220750528,
+          "correlation": 0.07494108869621263
+        },
+        "3": {
+          "contrast": 0.570088537351946,
+          "homogeneity": 0.0902802107614401,
+          "entropy": 0.8586731280259849,
+          "correlation": 0.13561264114375793
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.011238007348125856,
+        "1:1": 0.0014470127785953801,
+        "0:2": 0.06635215132048433,
+        "1:2": 0.019733012830538188,
+        "0:3": 0.041719932191595865,
+        "1:3": 0.05605908589302855
+      },
+      "ppsnr_db": 31.678969418701392,
+      "pssim": 0.8669353766800411,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0004-r.png",
+      "method": "ffc_finetuned",
+      "case": 0,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 51.85770750988142,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 609,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8282477552769841,
+      "variance_ratio": 0.685994344121363,
+      "ks_statistic": 0.1030345344762939,
+      "ks_p_iid_descriptive": 4.882912801066669e-05,
+      "sobel_jump": 14.754928618319253,
+      "glcm": {
+        "1": {
+          "contrast": 0.05598396655207866,
+          "homogeneity": 0.0057316022209058515,
+          "entropy": 0.3885724486093953,
+          "correlation": 0.036220835343756974
+        },
+        "2": {
+          "contrast": 0.32020033812853455,
+          "homogeneity": 0.04809102935017395,
+          "entropy": 0.6089767349398856,
+          "correlation": 0.04456033095692169
+        },
+        "3": {
+          "contrast": 0.5281384239732612,
+          "homogeneity": 0.07746841937822013,
+          "entropy": 0.7193436801438069,
+          "correlation": 0.12108394700269609
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.010799234159692972,
+        "1:1": 0.005396096217292756,
+        "0:2": 0.03223411593231962,
+        "1:2": 0.013469298054157086,
+        "0:3": 0.008785473149080958,
+        "1:3": 0.04591981838859016
+      },
+      "ppsnr_db": 31.318539805636995,
+      "pssim": 0.8562231344303746,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0004-r.png",
+      "method": "ffc_acoustic",
+      "case": 0,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 51.85770750988142,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 1208,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.9221270383889392,
+      "variance_ratio": 0.8503182749279561,
+      "ks_statistic": 0.06951648400950133,
+      "ks_p_iid_descriptive": 0.0006225016446928997,
+      "sobel_jump": 16.372779731463545,
+      "glcm": {
+        "1": {
+          "contrast": 0.3074689935349667,
+          "homogeneity": 0.08497441234472503,
+          "entropy": 0.5506732051019401,
+          "correlation": 0.05015624766374516
+        },
+        "2": {
+          "contrast": 0.5463133313946604,
+          "homogeneity": 0.0745318925696028,
+          "entropy": 0.4192683182284265,
+          "correlation": 0.08040297139558983
+        },
+        "3": {
+          "contrast": 0.4322229956252288,
+          "homogeneity": 0.03603360143349921,
+          "entropy": 0.2421687207790013,
+          "correlation": 0.04291304947330821
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.07065545027833753,
+        "1:1": 0.007243578200223588,
+        "0:2": 0.14660721659196685,
+        "1:2": 0.02574803270894066,
+        "0:3": 0.1411022889469684,
+        "1:3": 0.04661396686606367
+      },
+      "ppsnr_db": 21.665140946745538,
+      "pssim": 0.6337796132766214,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0013-r.png",
+      "method": "telea_bbox",
+      "case": 1,
+      "outside_overlay_changed_pixels": 591,
+      "nonoverlay_frame_change_pct": 0.5541334983544767,
+      "tissue_gain_geometry_pct": 0.0,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 597,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.7022652111254378,
+      "variance_ratio": 0.49317642675705575,
+      "ks_statistic": 0.11639688116096705,
+      "ks_p_iid_descriptive": 3.1470223760929356e-06,
+      "sobel_jump": 17.412624778575683,
+      "glcm": {
+        "1": {
+          "contrast": 0.2652705061082026,
+          "homogeneity": 0.06513013126944378,
+          "entropy": 0.8471067268338905,
+          "correlation": 0.003928044898541816
+        },
+        "2": {
+          "contrast": 0.5688112364053038,
+          "homogeneity": 0.0651393057810663,
+          "entropy": 0.8881532099269531,
+          "correlation": 0.006025185408139677
+        },
+        "3": {
+          "contrast": 0.7374698373427958,
+          "homogeneity": 0.04081826672860278,
+          "entropy": 0.9210325963514929,
+          "correlation": 0.03686519921371623
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.03060716285005116,
+        "1:1": 0.013156550294503688,
+        "0:2": 0.03994244000643332,
+        "1:2": 0.007986755825172165,
+        "0:3": 0.025877662151695513,
+        "1:3": 0.008276967667163682
+      },
+      "ppsnr_db": 27.956554881053872,
+      "pssim": 0.8394596466957479,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0013-r.png",
+      "method": "telea_stroke",
+      "case": 1,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 50.5794701986755,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 597,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.7191776670776403,
+      "variance_ratio": 0.5172165168232372,
+      "ks_statistic": 0.11122352173848593,
+      "ks_p_iid_descriptive": 1.0052031463933341e-05,
+      "sobel_jump": 17.974951002278456,
+      "glcm": {
+        "1": {
+          "contrast": 0.20911108581834748,
+          "homogeneity": 0.04429679793611052,
+          "entropy": 0.7317387225631187,
+          "correlation": 0.02165116330962491
+        },
+        "2": {
+          "contrast": 0.45303079043617855,
+          "homogeneity": 0.05253210166442823,
+          "entropy": 0.7987398933940186,
+          "correlation": 0.03678980543450194
+        },
+        "3": {
+          "contrast": 0.5982293310136817,
+          "homogeneity": 0.03593774144599271,
+          "entropy": 0.8448078460962498,
+          "correlation": 0.07147215526787598
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.00986393177759226,
+        "1:1": 0.02867567391831316,
+        "0:2": 0.0024732912761433745,
+        "1:2": 0.02179684567562057,
+        "0:3": 0.014318578265330784,
+        "1:3": 0.026569386864917055
+      },
+      "ppsnr_db": 27.623062832120297,
+      "pssim": 0.8296599351674091,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0013-r.png",
+      "method": "acoustic_telea",
+      "case": 1,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 50.5794701986755,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 82,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.1373534338358459,
+      "std_ratio": 0.7612576098545131,
+      "variance_ratio": 0.579513148561406,
+      "ks_statistic": 0.8224431818181818,
+      "ks_p_iid_descriptive": 7.994632875050567e-55,
+      "sobel_jump": 147.0891892506066,
+      "glcm": {
+        "1": {
+          "contrast": 0.041643914716275376,
+          "homogeneity": 0.04941221512989036,
+          "entropy": 0.3346378825848437,
+          "correlation": 0.11946193186025256
+        },
+        "2": {
+          "contrast": 0.37346897798005485,
+          "homogeneity": 0.001846478501714488,
+          "entropy": 0.6689049626085186,
+          "correlation": 0.10444777681352402
+        },
+        "3": {
+          "contrast": 0.46968556165071185,
+          "homogeneity": 0.03816359451004414,
+          "entropy": 0.5022081633814213,
+          "correlation": 0.14418765190061178
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.049986422114116635,
+        "1:1": 0.5361039073762555,
+        "0:2": 0.08610415549472328,
+        "1:2": 0.5186694540922245,
+        "0:3": 0.16704761979195115,
+        "1:3": 0.6252298994518719
+      },
+      "ppsnr_db": 9.007635755026653,
+      "pssim": 0.06595190332465369,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0013-r.png",
+      "method": "detector_acoustic_telea",
+      "case": 1,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 93.21192052980133,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 82,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.1373534338358459,
+      "std_ratio": 0.48498291757926365,
+      "variance_ratio": 0.23520843034369485,
+      "ks_statistic": 1.0,
+      "ks_p_iid_descriptive": 0.0,
+      "sobel_jump": 480.56165378593874,
+      "glcm": {
+        "1": {
+          "contrast": 0.18057830750594683,
+          "homogeneity": 0.017254451536776516,
+          "entropy": 1.722926039663685,
+          "correlation": 0.4783073452965493
+        },
+        "2": {
+          "contrast": 0.880931664547219,
+          "homogeneity": 0.1444221782147035,
+          "entropy": 2.309023132932081,
+          "correlation": 0.3772281546631794
+        },
+        "3": {
+          "contrast": 1.340055932021082,
+          "homogeneity": 0.15257714623069663,
+          "entropy": 2.340594527727909,
+          "correlation": 0.2736260388046755
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.6650118746767588,
+        "1:1": 0.5914877725453913,
+        "0:2": 0.17716995288977655,
+        "1:2": 0.08631536080995128,
+        "0:3": 0.02322657991435595,
+        "1:3": 0.9865359269958798
+      },
+      "ppsnr_db": 7.108468968931069,
+      "pssim": 0.010468263886751044,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0013-r.png",
+      "method": "selective_production",
+      "case": 1,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 93.21192052980133,
+      "status": "abstained"
+    },
+    {
+      "mask_pixels": 597,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.6715670147259928,
+      "variance_ratio": 0.4510022552679818,
+      "ks_statistic": 0.14724248084078206,
+      "ks_p_iid_descriptive": 1.0208371490750755e-09,
+      "sobel_jump": 21.170745178045348,
+      "glcm": {
+        "1": {
+          "contrast": 0.20850722108404796,
+          "homogeneity": 0.047618053974757935,
+          "entropy": 0.826486202355269,
+          "correlation": 0.038549514594632184
+        },
+        "2": {
+          "contrast": 0.4907666394927823,
+          "homogeneity": 0.055962633396846706,
+          "entropy": 0.9365790589018479,
+          "correlation": 0.052880468428506355
+        },
+        "3": {
+          "contrast": 0.7213593655361213,
+          "homogeneity": 0.05900008491042119,
+          "entropy": 1.0510193736389501,
+          "correlation": 0.07027877694228024
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.008445324515388819,
+        "1:1": 0.00879649488418166,
+        "0:2": 0.006753276697986754,
+        "1:2": 0.02096512720183663,
+        "0:3": 0.0024293993039189443,
+        "1:3": 0.04998842438275941
+      },
+      "ppsnr_db": 30.95736083765178,
+      "pssim": 0.8951490239629918,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0013-r.png",
+      "method": "ffc_finetuned",
+      "case": 1,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 50.5794701986755,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 597,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.6919661459140649,
+      "variance_ratio": 0.47881714709116496,
+      "ks_statistic": 0.14754821304160926,
+      "ks_p_iid_descriptive": 9.337427814770368e-10,
+      "sobel_jump": 23.14637874505167,
+      "glcm": {
+        "1": {
+          "contrast": 0.09075359789564225,
+          "homogeneity": 0.01410356122113443,
+          "entropy": 0.6758249622737917,
+          "correlation": 0.08968462966635449
+        },
+        "2": {
+          "contrast": 0.30551792594218197,
+          "homogeneity": 0.033321123962884336,
+          "entropy": 0.8390054177756459,
+          "correlation": 0.12803282918320524
+        },
+        "3": {
+          "contrast": 0.5452949236488946,
+          "homogeneity": 0.04228716268744681,
+          "entropy": 1.0044395364865668,
+          "correlation": 0.14722934739870996
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.06224444732055423,
+        "1:1": 0.02060590608313817,
+        "0:2": 0.10565049471509724,
+        "1:2": 0.0488110011914441,
+        "0:3": 0.08542341175939261,
+        "1:3": 0.10768915963599357
+      },
+      "ppsnr_db": 30.416615459288465,
+      "pssim": 0.8786342575364963,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "Images_bus_0013-r.png",
+      "method": "ffc_acoustic",
+      "case": 1,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 50.5794701986755,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 1260,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 1.0233539366929867,
+      "variance_ratio": 1.0472532797450333,
+      "ks_statistic": 0.15833794758213363,
+      "ks_p_iid_descriptive": 2.181502988382846e-19,
+      "sobel_jump": 10.680832339122633,
+      "glcm": {
+        "1": {
+          "contrast": 0.15237658004395788,
+          "homogeneity": 0.07025046742449104,
+          "entropy": 0.5532622465867822,
+          "correlation": 0.011272087665098462
+        },
+        "2": {
+          "contrast": 0.3110735054916701,
+          "homogeneity": 0.09992604368195668,
+          "entropy": 0.6375538920934716,
+          "correlation": 0.023571759593135844
+        },
+        "3": {
+          "contrast": 0.39626980684628776,
+          "homogeneity": 0.09100958757391253,
+          "entropy": 0.6078401062934082,
+          "correlation": 0.03160268527220589
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.009640709266899306,
+        "1:1": 0.0007991509852206535,
+        "0:2": 0.028860360992920442,
+        "1:2": 0.003508452073630708,
+        "0:3": 0.044523251528584495,
+        "1:3": 0.007287716174677272
+      },
+      "ppsnr_db": 26.532001761092765,
+      "pssim": 0.6859867713404758,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (1).png",
+      "method": "telea_bbox",
+      "case": 2,
+      "outside_overlay_changed_pixels": 618,
+      "nonoverlay_frame_change_pct": 0.2306891184166813,
+      "tissue_gain_geometry_pct": 0.0,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 609,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.9295587440559455,
+      "variance_ratio": 0.8640794586508669,
+      "ks_statistic": 0.1721058000608865,
+      "ks_p_iid_descriptive": 2.1500162246311562e-13,
+      "sobel_jump": 13.312441301405086,
+      "glcm": {
+        "1": {
+          "contrast": 0.11968468197127397,
+          "homogeneity": 0.053309719091446106,
+          "entropy": 0.7070777976325888,
+          "correlation": 0.004969867720615584
+        },
+        "2": {
+          "contrast": 0.3140046638420863,
+          "homogeneity": 0.09575998573633804,
+          "entropy": 0.9514676692712332,
+          "correlation": 0.015228694212909066
+        },
+        "3": {
+          "contrast": 0.5093062421947632,
+          "homogeneity": 0.11710682788256299,
+          "entropy": 1.1511082251034281,
+          "correlation": 0.023948939787254098
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.007554094002815592,
+        "1:1": 0.0014730781225202882,
+        "0:2": 0.02237038426944138,
+        "1:2": 0.0021972414502356985,
+        "0:3": 0.02984896805417603,
+        "1:3": 0.0074278932801223885
+      },
+      "ppsnr_db": 29.283063819646557,
+      "pssim": 0.8448145394769322,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (1).png",
+      "method": "telea_stroke",
+      "case": 2,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 51.66666666666666,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 609,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.9307110378061723,
+      "variance_ratio": 0.8662230358942422,
+      "ks_statistic": 0.1721058000608865,
+      "ks_p_iid_descriptive": 2.1500162246311562e-13,
+      "sobel_jump": 13.798597727411975,
+      "glcm": {
+        "1": {
+          "contrast": 0.07772250703037564,
+          "homogeneity": 0.0351655110536212,
+          "entropy": 0.5775624041513678,
+          "correlation": 0.0018552003050222865
+        },
+        "2": {
+          "contrast": 0.26694584031267454,
+          "homogeneity": 0.08231460758507747,
+          "entropy": 0.8454709451693523,
+          "correlation": 0.011786549519847811
+        },
+        "3": {
+          "contrast": 0.46844358612211845,
+          "homogeneity": 0.10484803106076968,
+          "entropy": 1.07116596267708,
+          "correlation": 0.020995209923548086
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.005491375455411673,
+        "1:1": 0.0037987552203065933,
+        "0:2": 0.018323133253277057,
+        "1:2": 0.0058169039616737805,
+        "0:3": 0.023230391969326636,
+        "1:3": 0.012931301226077219
+      },
+      "ppsnr_db": 29.141013369644373,
+      "pssim": 0.8376291980998558,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (1).png",
+      "method": "acoustic_telea",
+      "case": 2,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 51.66666666666666,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 346,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.1986863711001642,
+      "std_ratio": 0.8534495782711098,
+      "variance_ratio": 0.7283761826511351,
+      "ks_statistic": 0.260728448647732,
+      "ks_p_iid_descriptive": 4.034869478076312e-18,
+      "sobel_jump": 190.87302430897893,
+      "glcm": {
+        "1": {
+          "contrast": 1.6614111109779843,
+          "homogeneity": 0.2320395564031833,
+          "entropy": 0.32960780811548496,
+          "correlation": 0.0485117969906651
+        },
+        "2": {
+          "contrast": 0.7777016087175159,
+          "homogeneity": 0.014924827303498756,
+          "entropy": 0.030512008500468646,
+          "correlation": 0.03989166085317031
+        },
+        "3": {
+          "contrast": 12.193936797133578,
+          "homogeneity": 0.04575315517538936,
+          "entropy": 0.21518241951883166,
+          "correlation": 0.3672110702021656
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.10008845838697167,
+        "1:1": 0.02443747472179192,
+        "0:2": 0.051352623585118606,
+        "1:2": 0.05588896501109142,
+        "0:3": 0.3583857621567492,
+        "1:3": 0.0824959865076752
+      },
+      "ppsnr_db": 11.523615814037242,
+      "pssim": 0.23834027337733504,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (1).png",
+      "method": "detector_acoustic_telea",
+      "case": 2,
+      "outside_overlay_changed_pixels": 225,
+      "nonoverlay_frame_change_pct": 0.0839887567051024,
+      "tissue_gain_geometry_pct": 72.53968253968253,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 346,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.1986863711001642,
+      "std_ratio": 0.1412530702197778,
+      "variance_ratio": 0.019952429846513475,
+      "ks_statistic": 0.9346371590324241,
+      "ks_p_iid_descriptive": 0.0,
+      "sobel_jump": 348.52656569387733,
+      "glcm": {
+        "1": {
+          "contrast": 2.2659459214795112,
+          "homogeneity": 0.03983239037557318,
+          "entropy": 2.647334218863282,
+          "correlation": 0.4743141879798768
+        },
+        "2": {
+          "contrast": 5.907610974276428,
+          "homogeneity": 0.13107501684839096,
+          "entropy": 2.958749512655051,
+          "correlation": 0.3422357100511825
+        },
+        "3": {
+          "contrast": 13.960220322037792,
+          "homogeneity": 0.22327053524855045,
+          "entropy": 3.312638640376444,
+          "correlation": 0.026002521501172216
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.7018837310386171,
+        "1:1": 0.2686073873290632,
+        "0:2": 0.27395210788083335,
+        "1:2": 0.17811135799497513,
+        "0:3": 0.23264322791810133,
+        "1:3": 0.30251618611739195
+      },
+      "ppsnr_db": 9.473032801572002,
+      "pssim": 0.1088231327882628,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (1).png",
+      "method": "selective_production",
+      "case": 2,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 72.53968253968253,
+      "status": "abstained"
+    },
+    {
+      "mask_pixels": 609,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 1.0357259386426023,
+      "variance_ratio": 1.0727282199770996,
+      "ks_statistic": 0.1277470872700363,
+      "ks_p_iid_descriptive": 1.472136957577604e-07,
+      "sobel_jump": 17.20637768365285,
+      "glcm": {
+        "1": {
+          "contrast": 0.0073915377632361445,
+          "homogeneity": 0.007092225001611663,
+          "entropy": 0.21688918597346074,
+          "correlation": 0.0017631831362951988
+        },
+        "2": {
+          "contrast": 0.07030718485048959,
+          "homogeneity": 0.03821178998745023,
+          "entropy": 0.41762684805668737,
+          "correlation": 0.006622116386296617
+        },
+        "3": {
+          "contrast": 0.12792145218341233,
+          "homogeneity": 0.036102621432673065,
+          "entropy": 0.5972694359560737,
+          "correlation": 0.00871660951714559
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.0005849427611788194,
+        "1:1": 0.00010835552753873934,
+        "0:2": 0.0016812631904489228,
+        "1:2": 0.0005449684714817771,
+        "0:3": 0.019844602627351327,
+        "1:3": 0.004683498032110767
+      },
+      "ppsnr_db": 31.626021674424972,
+      "pssim": 0.9057157746424503,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (1).png",
+      "method": "ffc_finetuned",
+      "case": 2,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 51.66666666666666,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 609,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 1.0371959630711465,
+      "variance_ratio": 1.075775465811083,
+      "ks_statistic": 0.12610505114524156,
+      "ks_p_iid_descriptive": 2.2404033416067832e-07,
+      "sobel_jump": 17.440550914783,
+      "glcm": {
+        "1": {
+          "contrast": 0.008565909045274489,
+          "homogeneity": 0.000886498402643654,
+          "entropy": 0.17629035605174348,
+          "correlation": 0.0007943036178384988
+        },
+        "2": {
+          "contrast": 0.04593743695133001,
+          "homogeneity": 0.030060529483248666,
+          "entropy": 0.37140888749288425,
+          "correlation": 0.005060292180162462
+        },
+        "3": {
+          "contrast": 0.09954460768852014,
+          "homogeneity": 0.02736255332824633,
+          "entropy": 0.5497675301807794,
+          "correlation": 0.006815995331452718
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.0012966767869977414,
+        "1:1": 0.0003832844760064402,
+        "0:2": 0.0031795704718839968,
+        "1:2": 0.00011958064340067409,
+        "0:3": 0.022425424494572854,
+        "1:3": 0.00613938363038502
+      },
+      "ppsnr_db": 31.524671976529252,
+      "pssim": 0.9018412034299299,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (1).png",
+      "method": "ffc_acoustic",
+      "case": 2,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 51.66666666666666,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 1388,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8307486094696127,
+      "variance_ratio": 0.690143252135695,
+      "ks_statistic": 0.050272604112174185,
+      "ks_p_iid_descriptive": 0.017817406264647645,
+      "sobel_jump": 9.064852411240027,
+      "glcm": {
+        "1": {
+          "contrast": 0.11182086820868209,
+          "homogeneity": 0.04892504072099546,
+          "entropy": 0.5442111402464769,
+          "correlation": 0.01412313175360258
+        },
+        "2": {
+          "contrast": 0.26762429236924956,
+          "homogeneity": 0.07435682907915742,
+          "entropy": 0.6404873476295574,
+          "correlation": 0.04134815478886633
+        },
+        "3": {
+          "contrast": 0.427853236383292,
+          "homogeneity": 0.07438827417273419,
+          "entropy": 0.6525040615311322,
+          "correlation": 0.0688480062071728
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.036011499496097055,
+        "1:1": 0.0033732003806057342,
+        "0:2": 0.1088580328379436,
+        "1:2": 0.006701250962786176,
+        "0:3": 0.1777182036337026,
+        "1:3": 0.006171142808406693
+      },
+      "ppsnr_db": 29.81045915977708,
+      "pssim": 0.7747256677286823,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (100).png",
+      "method": "telea_bbox",
+      "case": 3,
+      "outside_overlay_changed_pixels": 706,
+      "nonoverlay_frame_change_pct": 0.26691972370405936,
+      "tissue_gain_geometry_pct": 0.0,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 633,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.7683477816589913,
+      "variance_ratio": 0.590358313580293,
+      "ks_statistic": 0.11670616113744077,
+      "ks_p_iid_descriptive": 1.3638030080674582e-06,
+      "sobel_jump": 10.126348825368982,
+      "glcm": {
+        "1": {
+          "contrast": 0.08846002168983541,
+          "homogeneity": 0.03628001162326111,
+          "entropy": 0.6031464903907975,
+          "correlation": 0.011517642297261488
+        },
+        "2": {
+          "contrast": 0.3066972732380363,
+          "homogeneity": 0.08608316468008104,
+          "entropy": 0.8464513076508151,
+          "correlation": 0.03427582169074683
+        },
+        "3": {
+          "contrast": 0.5039056981179777,
+          "homogeneity": 0.10325753178512398,
+          "entropy": 0.9174649450455852,
+          "correlation": 0.07921991004214035
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.03170655700307068,
+        "1:1": 0.009374935079530244,
+        "0:2": 0.09820524696530675,
+        "1:2": 0.008253362754585103,
+        "0:3": 0.17096114767748316,
+        "1:3": 3.5905715153661255e-05
+      },
+      "ppsnr_db": 32.928856404199216,
+      "pssim": 0.893095998060507,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (100).png",
+      "method": "telea_stroke",
+      "case": 3,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 54.39481268011528,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 633,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.7740800728971472,
+      "variance_ratio": 0.5991999592564528,
+      "ks_statistic": 0.12014351889040618,
+      "ks_p_iid_descriptive": 5.834465812154615e-07,
+      "sobel_jump": 10.50878451123176,
+      "glcm": {
+        "1": {
+          "contrast": 0.052178842551513366,
+          "homogeneity": 0.0188196941629436,
+          "entropy": 0.4951636733035292,
+          "correlation": 0.028592783411602096
+        },
+        "2": {
+          "contrast": 0.25823200667907026,
+          "homogeneity": 0.06960497405003285,
+          "entropy": 0.735498494890412,
+          "correlation": 0.011754923169364329
+        },
+        "3": {
+          "contrast": 0.4597068030903534,
+          "homogeneity": 0.08778791852545542,
+          "entropy": 0.8276211688070112,
+          "correlation": 0.06069320880909501
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.023898601154373478,
+        "1:1": 0.019088948394905825,
+        "0:2": 0.08279010366110595,
+        "1:2": 0.018126192100041405,
+        "0:3": 0.15642611864946088,
+        "1:3": 0.013028992111958071
+      },
+      "ppsnr_db": 32.586687157694946,
+      "pssim": 0.8842673220010033,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (100).png",
+      "method": "acoustic_telea",
+      "case": 3,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 54.39481268011528,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 544,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.14218009478672985,
+      "std_ratio": 0.5925456197455254,
+      "variance_ratio": 0.3511103114796088,
+      "ks_statistic": 0.39551539955604886,
+      "ks_p_iid_descriptive": 1.1618280308550678e-66,
+      "sobel_jump": 83.78494296975782,
+      "glcm": {
+        "1": {
+          "contrast": 0.8378448352947833,
+          "homogeneity": 0.15877681301556634,
+          "entropy": 2.3358102850499396,
+          "correlation": 0.011243124337250943
+        },
+        "2": {
+          "contrast": 2.39905408542247,
+          "homogeneity": 0.24890610222424492,
+          "entropy": 2.489447420831374,
+          "correlation": 0.05612382954090733
+        },
+        "3": {
+          "contrast": 3.7512301007994435,
+          "homogeneity": 0.30357367354766235,
+          "entropy": 2.5924454891539233,
+          "correlation": 0.12601495132040375
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.014245125580949147,
+        "1:1": 0.019759746869740913,
+        "0:2": 0.0953251382022362,
+        "1:2": 0.025228624691066237,
+        "0:3": 0.2028954122935197,
+        "1:3": 0.010019542391700886
+      },
+      "ppsnr_db": 9.621109421401929,
+      "pssim": 0.07485475845566031,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (100).png",
+      "method": "detector_acoustic_telea",
+      "case": 3,
+      "outside_overlay_changed_pixels": 454,
+      "nonoverlay_frame_change_pct": 0.17164526141875772,
+      "tissue_gain_geometry_pct": 60.80691642651297,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 544,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 0.14218009478672985,
+      "std_ratio": 0.16832824195955368,
+      "variance_ratio": 0.028334397041194045,
+      "ks_statistic": 0.9419221698113207,
+      "ks_p_iid_descriptive": 0.0,
+      "sobel_jump": 218.25352143148461,
+      "glcm": {
+        "1": {
+          "contrast": 0.6904938419172999,
+          "homogeneity": 0.09702184612814924,
+          "entropy": 3.003247367418973,
+          "correlation": 0.5955351602416785
+        },
+        "2": {
+          "contrast": 2.4258397997081844,
+          "homogeneity": 0.24801324508138778,
+          "entropy": 3.5540352486751376,
+          "correlation": 0.5512430786991984
+        },
+        "3": {
+          "contrast": 3.7341984706291274,
+          "homogeneity": 0.286298734374913,
+          "entropy": 3.5910362211524154,
+          "correlation": 0.5606163225884573
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.6908040307100789,
+        "1:1": 0.2313818146361295,
+        "0:2": 0.5982165895235347,
+        "1:2": 0.501721115639074,
+        "0:3": 0.38039704962812015,
+        "1:3": 0.6499103409122147
+      },
+      "ppsnr_db": 7.606503000996364,
+      "pssim": 0.031357327073737666,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (100).png",
+      "method": "selective_production",
+      "case": 3,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 60.80691642651297,
+      "status": "abstained"
+    },
+    {
+      "mask_pixels": 633,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8156805183353353,
+      "variance_ratio": 0.6653347079918013,
+      "ks_statistic": 0.07920314884729696,
+      "ks_p_iid_descriptive": 0.0028728568715821437,
+      "sobel_jump": 12.64500715606102,
+      "glcm": {
+        "1": {
+          "contrast": 0.005644286700187295,
+          "homogeneity": 0.005329965701001971,
+          "entropy": 0.27755021585111495,
+          "correlation": 0.04460385299577796
+        },
+        "2": {
+          "contrast": 0.10152764480507992,
+          "homogeneity": 0.011608205067803246,
+          "entropy": 0.42538286844682194,
+          "correlation": 0.04307329363923218
+        },
+        "3": {
+          "contrast": 0.18898857104615452,
+          "homogeneity": 0.00811941023816276,
+          "entropy": 0.47694667158894344,
+          "correlation": 0.04824830468150665
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.00845910589664578,
+        "1:1": 0.005769661935006387,
+        "0:2": 0.009425764640865864,
+        "1:2": 0.00671279726024443,
+        "0:3": 0.041773667158528816,
+        "1:3": 0.005112277656727504
+      },
+      "ppsnr_db": 33.33860179372354,
+      "pssim": 0.8979455230314405,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (100).png",
+      "method": "ffc_finetuned",
+      "case": 3,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 54.39481268011528,
+      "status": "ungated_research"
+    },
+    {
+      "mask_pixels": 633,
+      "outside_changed_pixels": 0,
+      "pfpr_pct": null,
+      "detector_fpr_pct": null,
+      "artifact_recall": 1.0,
+      "std_ratio": 0.8200840284205442,
+      "variance_ratio": 0.6725378136704679,
+      "ks_statistic": 0.07762337001633324,
+      "ks_p_iid_descriptive": 0.0037178054222769524,
+      "sobel_jump": 12.853977676136426,
+      "glcm": {
+        "1": {
+          "contrast": 0.012447007788622677,
+          "homogeneity": 0.008731326245219662,
+          "entropy": 0.26261606238685964,
+          "correlation": 0.04728148279755362
+        },
+        "2": {
+          "contrast": 0.08941132816533848,
+          "homogeneity": 0.005550046747932469,
+          "entropy": 0.41174772235589385,
+          "correlation": 0.047317679975938165
+        },
+        "3": {
+          "contrast": 0.18125376441632024,
+          "homogeneity": 0.004252006923245566,
+          "entropy": 0.4704136552049234,
+          "correlation": 0.05057950033915559
+        }
+      },
+      "acf_delta": {
+        "0:1": 0.01345720370139547,
+        "1:1": 0.007465300111618167,
+        "0:2": 0.0002578059872953009,
+        "1:2": 0.009345305803168613,
+        "0:3": 0.02943863953121051,
+        "1:3": 0.0013055814861054893
+      },
+      "ppsnr_db": 33.15260147518683,
+      "pssim": 0.8935217550129511,
+      "edge_l1": null,
+      "perfect_reconstruction": false,
+      "image": "malignant_malignant (100).png",
+      "method": "ffc_acoustic",
+      "case": 3,
+      "outside_overlay_changed_pixels": 0,
+      "nonoverlay_frame_change_pct": 0.0,
+      "tissue_gain_geometry_pct": 54.39481268011528,
+      "status": "ungated_research"
+    }
+  ]
+}
